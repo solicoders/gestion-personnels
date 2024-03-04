@@ -41,11 +41,11 @@
                             <div class="card card-info card-outline">
                                 <div class="card-body box-profile">
                                     <div class="text-center">
-                                        <img class="profile-user-img img-fluid img-circle" src="../assets/images/man.png" alt="Photo de profil">
+                                        <img class="profile-user-img img-fluid img-circle" src="../assets/images/user.png" alt="Photo de profil">
                                     </div>
                                     <h3 class="profile-username text-center">Mohamed alami</h3>
                                     <p class="text-muted text-center">Formateur</p>
-                                    <ul class="list-group list-group-unbordered mb-3">
+                                    <ul class="list-group list-group-unbordered ">
                                         <li class="list-group-item">
                                             <b>Établissement</b>
                                             <h6 class="float-right text-primary">Solicode</h6>
@@ -78,28 +78,28 @@
                                     <div class="tab-content">
                                         <div class="tab-pane active" id="personnelles">
 
-                                            <div class="col-lg-12 d-flex">
+                                            <div class="col-lg-12 d-flex px-0">
                                                 <!-- Prénom (français) -->
-                                                <div class="form-group pt-3 col-lg-6">
+                                                <div class="form-group col-lg-6">
                                                     <label for="prenom" class="form-label">Nom :</label>
                                                     <p id="prenom" name="prenom">Alami</p>
                                                 </div>
                                                 <!-- Prénom (arabe) -->
-                                                <div class="form-group pt-3 col-lg-6">
+                                                <div class="form-group col-lg-6">
                                                     <label for="prenomArab" class="form-label text-start d-flex flex-row-reverse"> :
                                                         النسب </label>
                                                     <p type="text" class="text-end d-flex flex-row-reverse" id="prenomArab">العلمي</p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-lg-12 d-flex">
+                                            <div class="col-lg-12 d-flex px-0">
                                                 <!-- Prénom (français) -->
-                                                <div class="form-group pt-3 col-lg-6">
+                                                <div class="form-group col-lg-6">
                                                     <label for="prenom" class="form-label">Prénom :</label>
                                                     <p id="prenom" name="prenom">Mohamed</p>
                                                 </div>
                                                 <!-- Prénom (arabe) -->
-                                                <div class="form-group pt-3 col-lg-6">
+                                                <div class="form-group col-lg-6">
                                                     <label for="prenomArab" class="form-label text-start d-flex flex-row-reverse"> :
                                                         الاسم</label>
                                                     <p type="text" class="text-end d-flex flex-row-reverse" id="prenomArab">العلمي</p>
