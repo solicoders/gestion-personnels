@@ -22,7 +22,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="float-sm-right">
-                                <a href="./ajouter.php" class="btn btn-info">
+                                <a href="./create.php" class="btn btn-info">
                                     <i class="fas fa-plus"></i> Nouveau personnel
                                 </a>
                             </div>
@@ -37,13 +37,27 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header col-md-12">
-                                    <div class=" p-0">
-                                        <div class="input-group input-group-sm float-sm-right col-md-3 p-0">
-                                            <input type="text" name="table_search" class="form-control float-right" placeholder="Recherche">
-                                            <div class="input-group-append">
-                                                <button type="submit" class="btn btn-default">
-                                                    <i class="fas fa-search"></i>
-                                                </button>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="dropdown input-group">
+                                            <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
+                                                établissement
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Solicode</a>
+                                                <a class="dropdown-item" href="#">ntic</a>
+                                                <a class="dropdown-item" href="#">ibn marhal</a>
+                                            </div>
+                                        </div>
+
+                                        <div class=" p-0">
+                                            <div class="input-group input-group-sm">
+                                                <input type="text" name="table_search" class="form-control" placeholder="Recherche">
+                                                <div class="input-group-append">
+                                                    <button type="submit" class="btn btn-default">
+                                                        <i class="fas fa-search"></i>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -58,6 +72,7 @@
                                                 <th>Prenom</th>
                                                 <th>téléphone</th>
                                                 <th>type</th>
+                                                <th>établissement</th>
                                                 <th class="text-center">Attestation</th>
                                                 <th class="text-center">Actions</th>
                                             </tr>
@@ -69,9 +84,10 @@
                                                 <td>Mohamed</td>
                                                 <td>+2129034704</td>
                                                 <td>directeur</td>
+                                                <td>solicode</td>
                                                 <td class="text-center"><a href="./attestation.php" class='btn btn-default btn-sm'><i class="fa-regular fa-file"></i></a></td>
                                                 <td class="text-center">
-                                                    <a href="./afficher.php" class='btn btn-default btn-sm'>
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
                                                     <a href="./modifier.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
@@ -84,9 +100,10 @@
                                                 <td>Ali</td>
                                                 <td>+212645690304</td>
                                                 <td>directeur</td>
+                                                <td>ntic</td>
                                                 <td class="text-center"><a href="./attestation.php" class='btn btn-default btn-sm'><i class="fa-regular fa-file"></i></a></td>
                                                 <td class="text-center">
-                                                    <a href="./afficher.php" class='btn btn-default btn-sm'>
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
                                                     <a href="./modifier.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
@@ -98,10 +115,11 @@
                                                 <td>Alami</td>
                                                 <td>Mohamed</td>
                                                 <td>+2129567704</td>
-                                                <td>formateur</td>
+                                                <td>directeur</td>
+                                                <td>ibn marhal</td>
                                                 <td class="text-center"><a href="./attestation.php" class='btn btn-default btn-sm'><i class="fa-regular fa-file"></i></a></td>
                                                 <td class="text-center">
-                                                    <a href="./afficher.php" class='btn btn-default btn-sm'>
+                                                    <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
                                                     <a href="./modifier.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
