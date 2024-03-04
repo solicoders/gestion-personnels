@@ -81,10 +81,12 @@ include_once "../../view/layouts/heade.php"
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card-body table-responsive p-0">
-                                        <!-- table -->
-                                        <?php include_once "./table.php" ?>
-                                    </div>
+                                </div>
+                                <div class="card-body table-responsive p-0">
+                                    <!-- table -->
+                                    <?php include_once "./table.php" ?>
+                                </div>
+                                <div class="card-footer">
                                     <div class="d-flex justify-content-between align-items-center p-2">
                                         <div class="d-flex align-items-center mb-2">
                                             <button type="button" class="btn btn-default btn-sm">
@@ -94,7 +96,7 @@ include_once "../../view/layouts/heade.php"
                                                 <i class="fa-solid fa-file-export"></i>
                                                 EXPORTER</button>
                                         </div>
-                                        <div class="mr-5">
+                                        <div class="">
                                             <ul class="pagination  m-0 float-right">
                                                 <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
                                                 <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
@@ -115,10 +117,11 @@ include_once "../../view/layouts/heade.php"
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
+
                         </div>
                     </div>
+                </div>
 
             </section>
 
