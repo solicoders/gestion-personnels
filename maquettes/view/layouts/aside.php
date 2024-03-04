@@ -40,7 +40,7 @@ $current_route = $_SERVER['REQUEST_URI'];
         </li>
         <li class="nav-item">
           <a href="/view/conge/index.php" class="nav-link <?php echo (strpos($current_route, 'conge') !== false) ? 'active' : ''; ?>">
-          <i class="fa-solid fa-person-walking-luggage"></i>
+            <i class="fa-solid fa-person-walking-luggage"></i>
             <p>
               Congé
             </p>
@@ -51,6 +51,14 @@ $current_route = $_SERVER['REQUEST_URI'];
             <i class="fa-solid fa-calendar-days"></i>
             <p>
               Absences
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/view/missions/index.php" class="nav-link <?php echo (strpos($current_route, 'missions') !== false) ? 'active' : ''; ?>">
+            <i class="fa-solid fa-business-time"></i>
+            <p>
+              missions
             </p>
           </a>
         </li>
