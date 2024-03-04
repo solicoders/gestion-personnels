@@ -3,7 +3,7 @@
 
         <div class="card-body">
             <div class="form-group">
-                <label for="exampleInputProject">Colaborateur</label>
+                <label for="exampleInputProject">Colaborateur : <span class="text-danger">*</span></label>
                 <select name="project" class="form-control" id="exampleInputProject">
                     <option value="projet1">Mohamed alami</option>
                     <option value="projet2">ahmed Alami</option>
@@ -28,12 +28,12 @@
             </div>
 
             <div class="form-group">
-                <label for="inputStartDate">Date de début</label>
+                <label for="inputStartDate">Date de début : <span class="text-danger">*</span></label>
                 <input name="startDate" type="date" class="form-control" id="inputStartDate" placeholder="Sélectionnez la date de début" value="2023-01-01">
             </div>
 
             <div class="form-group">
-                <label for="inputEndDate">Date de fin</label>
+                <label for="inputEndDate">Date de fin : <span class="text-danger">*</span></label>
                 <input name="endDate" type="date" class="form-control" id="inputEndDate" placeholder="Sélectionnez la date de fin" value="2024-02-01">
             </div>
 

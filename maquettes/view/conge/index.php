@@ -88,7 +88,7 @@
                                             <thead>
                                                 <tr>
                                                     <th>Matricule</th>
-                                                    <th>Collaborateur</th>
+                                                    <th>personnels</th>
                                                     <th>Date début</th>
                                                     <th>Date Fin</th>
                                                     <th class="text-center">Jours restants</th>

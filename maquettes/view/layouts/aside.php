@@ -31,7 +31,7 @@ $current_route = $_SERVER['REQUEST_URI'];
           </a>
         </li>
         <li class="nav-item">
-          <a href="/view/gestion-des-categorie/index.php" class="nav-link <?php echo (strpos($current_route, 'gestion-des-categorie') !== false) ? 'active' : ''; ?>">
+          <a href="/view/categorie/index.php" class="nav-link <?php echo (strpos($current_route, 'categorie') !== false) ? 'active' : ''; ?>">
             <i class="fa-solid fa-list"></i>
             <p>
               Categorie
