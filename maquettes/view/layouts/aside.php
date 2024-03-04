@@ -47,7 +47,7 @@ $current_route = $_SERVER['REQUEST_URI'];
           </a>
         </li>
         <li class="nav-item">
-          <a href="/view/absences/index.php" class="nav-link <?php echo (strpos($current_route, 'Collaborateur') !== false) ? 'active' : ''; ?>">
+          <a href="/view/absences/index.php" class="nav-link <?php echo (strpos($current_route, 'absence') !== false) ? 'active' : ''; ?>">
             <i class="fa-solid fa-calendar-days"></i>
             <p>
               Absences
