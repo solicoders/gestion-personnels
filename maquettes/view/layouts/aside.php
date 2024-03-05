@@ -9,9 +9,7 @@ $current_route = $_SERVER['REQUEST_URI'];
         <h6 class="brand-text font-weight-light text-center">Gestion Personnelles</h6>
     </a>
 
-    <!-- Barre latérale -->
     <div class="sidebar">
-        <!-- Menu latéral -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-item">
@@ -24,13 +22,31 @@ $current_route = $_SERVER['REQUEST_URI'];
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/view/personnels/index.php"
+                    <a href=""
                         class="nav-link <?php echo (strpos($current_route, 'personnels') !== false) ? 'active' : ''; ?>">
                         <i class="fa-solid fa-users mr-2"></i>
                         <p>
                             Personnels
+                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
+                    <ul class="nav nav-treeview"
+                        style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <li class="nav-item">
+                            <a href="/view/personnels/index.php"
+                                class="nav-link <?php echo (strpos($current_route, 'personnels/index.php') !== false) ? 'active' : ''; ?>">
+                                <i class="fa-solid fa-bars-staggered mr-2"></i>
+                                <p>List des personnels</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/view/personnels/document.html"
+                                class="nav-link <?php echo (strpos($current_route, 'personnels/document.php') !== false) ? 'active' : ''; ?>">
+                                <i class="fa-solid fa-paste mr-2"></i>
+                                <p>Documents</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a href="/view/categorie/index.php"
@@ -42,35 +58,87 @@ $current_route = $_SERVER['REQUEST_URI'];
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/view/conge/index.php"
+                    <a href=""
                         class="nav-link <?php echo (strpos($current_route, 'conge') !== false) ? 'active' : ''; ?>">
-                        <i class="fa-solid fa-person-walking-luggage mr-2"></i>
+                        <i class="fa-solid fa-users mr-2"></i>
                         <p>
                             Congés
+                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
+                    <ul class="nav nav-treeview"
+                        style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <li class="nav-item">
+                            <a href="/view/conge/index.php"
+                                class="nav-link <?php echo (strpos($current_route, 'conge/index.php') !== false) ? 'active' : ''; ?>">
+                                <i class="fa-solid fa-bars-staggered mr-2"></i>
+                                <p>List des conges</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/view/conge/décision.html"
+                                class="nav-link <?php echo (strpos($current_route, 'conge/décision.php') !== false) ? 'active' : ''; ?>">
+                                <i class="fa-solid fa-paste mr-2"></i>
+                                <p>Décisions</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="/view/absences/index.php"
-                        class="nav-link <?php echo (strpos($current_route, 'absence') !== false) ? 'active' : ''; ?>">
+                    <a href=""
+                        class="nav-link <?php echo (strpos($current_route, 'absences') !== false) ? 'active' : ''; ?>">
                         <i class="fa-regular fa-calendar-minus mr-2"></i>
                         <p>
                             Absences
+                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
+                    <ul class="nav nav-treeview"
+                        style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <li class="nav-item">
+                            <a href="/view/absences/index.php"
+                                class="nav-link <?php echo (strpos($current_route, 'absences/index.php') !== false) ? 'active' : ''; ?>">
+                                <i class="fa-solid fa-bars-staggered mr-2"></i>
+                                <p>List des absences</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/view/absences/décision.html"
+                                class="nav-link <?php echo (strpos($current_route, 'absences/décision.php') !== false) ? 'active' : ''; ?>">
+                                <i class="fa-solid fa-paste mr-2"></i>
+                                <p>Décisions</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="/view/missions/index.php"
+                    <a href=""
                         class="nav-link <?php echo (strpos($current_route, 'missions') !== false) ? 'active' : ''; ?>">
-                        <i class="fa-solid fa-business-time mr-2"></i>
+                        <i class="fa-regular fa-calendar-minus mr-2"></i>
                         <p>
                             Missions
+                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
+                    <ul class="nav nav-treeview"
+                        style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <li class="nav-item">
+                            <a href="/view/missions/index.php"
+                                class="nav-link <?php echo (strpos($current_route, 'missions/index.php') !== false) ? 'active' : ''; ?>">
+                                <i class="fa-solid fa-bars-staggered mr-2"></i>
+                                <p>List des missions</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/view/missions/décisions.html"
+                                class="nav-link <?php echo (strpos($current_route, 'missions/décision.php') !== false) ? 'active' : ''; ?>">
+                                <i class="fa-solid fa-paste mr-2"></i>
+                                <p>Décisions</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
-        <!-- /.sidebar-menu -->
     </div>
-    <!-- /.sidebar -->
 </aside>
