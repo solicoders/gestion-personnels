@@ -22,8 +22,9 @@
                             <h1>Détails du Congé</h1>
                         </div>
                         <div class="col-sm-6">
-                            <a href="./edit.php" class="btn btn-default float-right"><i class="far fa-edit"></i> Modifier</a>
+                            <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i class="fas fa-arrow-left"></i> Retoure</a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -36,20 +37,24 @@
                                 <div class="user-block">
                                     <img class="img-circle" src="../assets/images/user.png" alt="User Image">
                                     <span class="username"><a href="#">mohamed Alami</a></span>
-                                    <span class="description">Matricule - 65266337</span>
-                                    <span class="description">Joure restant - <span class="text-danger h5">6</span></span>
+                                    <span class="description">Matricule : 65266337</span>
+                                    <!-- <span class="description">Joure restant : <span class="text-danger h5">6</span></span> -->
                                 </div>
 
                                 <div class="card-tools">
-                                    <button type="button" class="btn btn-tool" title="Mark as read">
-                                        <i class="far fa-circle"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <!-- <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                         <i class="fas fa-minus"></i>
-                                    </button>
-                                    <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                        <i class="fas fa-times"></i>
-                                    </button>
+                                    </button> -->
+
+                                    <div class="card">
+                                        <div class="card-header bg-purple">
+                                            <span class="description">Joure restant : <span class=" h5">- 6</span></span>
+                                        </div>
+                                        <!-- <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                        <i class="fas fa-minus"></i>
+                                    </button> -->
+
+                                    </div>
                                 </div>
 
                             </div>
