@@ -51,7 +51,7 @@
                 <div class="col-lg-6 col-12 pt-3">
                     <label for="inputDescription">Puissance fiscale <span class="text-danger">*</span></label>
                     <input name="nombreDuJour" type="text" class="form-control" id="nombreDuJour"
-                        placeholder="Sélectionnez Puissance fiscale" value="500chev">
+                        placeholder="Sélectionnez Puissance fiscale" value="4cv">
                 </div>
             </div>
         </div>
@@ -61,44 +61,43 @@
         <div class="row">
             <div class="form-group col-lg-6 col-12">
                 <label for="Lieu">Lieu <span class="text-danger">*</span></label>
-                <input name="Lieu" type="text" class="form-control" id="Lieu" placeholder="Sélectionnez "
-                    value="Rabat">
+                <input name="Lieu" type="text" class="form-control" id="Lieu" placeholder="Sélectionnez " value="Rabat">
             </div>
 
             <div class="form-group col-lg-6 col-12">
                 <label for="date-de-fin">Date d'ordre de mission <span class="text-danger">*</span></label>
-                <input name="date-de-fin" type="date" class="form-control" id="date-de-fin"
-                    placeholder="Sélectionnez " value="2024-02-10">
+                <input name="date-de-fin" type="date" class="form-control" id="date-de-fin" placeholder="Sélectionnez "
+                    value="2024-02-10">
             </div>
             <div class="form-group col-lg-6 col-12">
                 <label for="date-début">Date début <span class="text-danger">*</span></label>
-                <input name="date-début" type="date" class="form-control" id="date-début"
-                    placeholder="Sélectionnez " value="2024-02-15">
+                <input name="date-début" type="date" class="form-control" id="date-début" placeholder="Sélectionnez "
+                    value="2024-02-15">
             </div>
             <div class="form-group col-lg-6 col-12">
                 <label for="date-de-fin">Date de fin <span class="text-danger">*</span></label>
-                <input name="date-de-fin" type="date" class="form-control" id="date-de-fin"
-                    placeholder="Sélectionnez " value="2024-02-20">
+                <input name="date-de-fin" type="date" class="form-control" id="date-de-fin" placeholder="Sélectionnez "
+                    value="2024-02-20">
             </div>
             <div class="form-group col-lg-6 col-12">
                 <label for="date-de-fin">Date de départ <span class="text-danger">*</span></label>
-                <input name="date-de-fin" type="date" class="form-control" id="date-de-fin"
-                    placeholder="Sélectionnez " value="2024-02-14">
+                <input name="date-de-fin" type="date" class="form-control" id="date-de-fin" placeholder="Sélectionnez "
+                    value="2024-02-14">
             </div>
             <div class="form-group col-lg-6 col-12">
                 <label for="date-de-fin">Heure de départ <span class="text-danger">*</span></label>
-                <input name="date-de-fin" type="text" class="form-control" id="date-de-fin"
-                    placeholder="Sélectionnez " value="14H00">
+                <input name="date-de-fin" type="text" class="form-control" id="date-de-fin" placeholder="Sélectionnez "
+                    value="14H00">
             </div>
             <div class="form-group col-lg-6 col-12">
                 <label for="date-de-fin">Date de retour <span class="text-danger">*</span></label>
-                <input name="date-de-fin" type="date" class="form-control" id="date-de-fin"
-                    placeholder="Sélectionnez " value="2024-02-21">
+                <input name="date-de-fin" type="date" class="form-control" id="date-de-fin" placeholder="Sélectionnez "
+                    value="2024-02-21">
             </div>
             <div class="form-group col-lg-6 col-12">
                 <label for="date-de-fin">Heure de retour <span class="text-danger">*</span></label>
-                <input name="date-de-fin" type="text" class="form-control" id="date-de-fin"
-                    placeholder="Sélectionnez " value="14H00">
+                <input name="date-de-fin" type="text" class="form-control" id="date-de-fin" placeholder="Sélectionnez "
+                    value="14H00">
             </div>
         </div>
     </fieldset>
