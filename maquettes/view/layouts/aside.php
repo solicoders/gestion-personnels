@@ -44,8 +44,8 @@ $current_route = $_SERVER['REQUEST_URI'];
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/view/personnels/document.html"
-                                class="nav-link <?php echo (strpos($current_route, 'personnels/document.php') !== false) ? 'active' : ''; ?>">
+                            <a href="/view/personnels/attestation-des-travaux.php"
+                                class="nav-link <?php echo (strpos($current_route, 'personnels/attestation-des-travaux.php') !== false) ? 'active' : ''; ?>">
                                 <i class="fa-regular fa-file-lines mr-2"></i>
                                 <p class="">Attestation des travaux</p>
                             </a>
@@ -86,8 +86,8 @@ $current_route = $_SERVER['REQUEST_URI'];
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/view/conge/décision.html"
-                                class="nav-link <?php echo (strpos($current_route, 'conge/décision.php') !== false) ? 'active' : ''; ?>">
+                            <a href="/view/conge/décision-des-congés.php"
+                                class="nav-link <?php echo (strpos($current_route, 'conge/décision-des-congés.php') !== false) ? 'active' : ''; ?>">
                                 <i class="fa-regular fa-file-lines mr-2"></i>
                                 <p class="">Décision des congés</p>
                             </a>
@@ -116,8 +116,8 @@ $current_route = $_SERVER['REQUEST_URI'];
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/view/absences/décision.html"
-                                class="nav-link <?php echo (strpos($current_route, 'absences/décision.php') !== false) ? 'active' : ''; ?>">
+                            <a href="/view/absences/maquette-absentéisme.html"
+                                class="nav-link <?php echo (strpos($current_route, 'absences/maquette-absentéisme.php') !== false) ? 'active' : ''; ?>">
                                 <i class="fa-regular fa-file-lines mr-2"></i>
                                 <p class="">Maquette d'absentéisme</p>
                             </a>
@@ -139,15 +139,15 @@ $current_route = $_SERVER['REQUEST_URI'];
                     <ul class="nav nav-treeview"
                         style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
                         <li class="nav-item">
-                            <a href="/view/missions/index.php"
-                                class="nav-link <?php echo (strpos($current_route, 'missions/index.php') !== false) ? 'active' : ''; ?>">
+                            <a href="/view/missions/list-des-missions.php"
+                                class="nav-link <?php echo (strpos($current_route, 'missions/list-des-missions.php') !== false) ? 'active' : ''; ?>">
                                 <i class="fa-solid fa-bars-staggered mr-2"></i>
                                 <p>List des missions</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/view/missions/décisions.html"
-                                class="nav-link <?php echo (strpos($current_route, 'missions/décision.php') !== false) ? 'active' : ''; ?>">
+                            <a href="/view/missions/ordre-des-missions.php"
+                                class="nav-link <?php echo (strpos($current_route, 'missions/ordre-des-missions.php') !== false) ? 'active' : ''; ?>">
                                 <i class="fa-regular fa-file-lines mr-2"></i>
                                 <p class="">Ordre des missions</p>
                             </a>
