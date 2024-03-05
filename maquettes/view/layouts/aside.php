@@ -139,8 +139,8 @@ $current_route = $_SERVER['REQUEST_URI'];
                     <ul class="nav nav-treeview"
                         style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
                         <li class="nav-item">
-                            <a href="/view/missions/list-des-missions.php"
-                                class="nav-link <?php echo (strpos($current_route, 'missions/list-des-missions.php') !== false) ? 'active' : ''; ?>">
+                            <a href="/view/missions/index.php"
+                                class="nav-link <?php echo (strpos($current_route, 'missions/index.php') !== false) ? 'active' : ''; ?>">
                                 <i class="fa-solid fa-bars-staggered mr-2"></i>
                                 <p>List des missions</p>
                             </a>
