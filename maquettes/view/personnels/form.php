@@ -12,8 +12,8 @@
                     <!-- Nom (Arabic) -->
                     <div class="form-group pt-3 col-lg-6">
                         <label for="nomArab" class="form-label d-flex flex-row-reverse"> :
-                             النسب<span class="text-danger">*</span> </label>
-                        <input type="text" class="form-control" id="nomArab" name="nomArab" placeholder="أدخل النسب هنا" value="العلمي" required>
+                            النسب<span class="text-danger">*</span> </label>
+                        <input type="text" class="form-control direction-rtl" id="nomArab" name="nomArab" placeholder="أدخل النسب هنا" value="العلمي" required>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex">
@@ -26,7 +26,7 @@
                     <div class="form-group pt-3 col-lg-6">
                         <label for="prenomArab" class="form-label text-start d-flex flex-row-reverse"> :
                             الاسم <span class="text-danger">*</span> </label>
-                        <input type="text" class="form-control text-end d-flex flex-row-reverse" id="prenomArab" name="prenomArab" placeholder="أدخل الاسم هنا" value="محمد" required>
+                        <input type="text" class="form-control text-end d-flex flex-row-reverse direction-rtl" id="prenomArab" name="prenomArab" placeholder="أدخل الاسم هنا" value="محمد" required>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex">
@@ -67,9 +67,12 @@
                 </div>
 
                 <!-- Photo -->
-                <div class="form-group pt-3 col-lg-6">
-                    <label for="inputPhoto">Photo</label>
-                    <input name="NumeroDePhoto" class="form-control" id="inputPhoto" type="file">
+                <div class="form-group">
+
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label" for="customFile">Choose file</label>
+                    </div>
                 </div>
 
             </fieldset>

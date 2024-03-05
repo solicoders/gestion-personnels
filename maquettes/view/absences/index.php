@@ -95,6 +95,8 @@ include_once "../../view/layouts/heade.php"
                                             <button type="button" class="btn btn-default btn-sm mt-0 mx-2">
                                                 <i class="fa-solid fa-file-export"></i>
                                                 EXPORTER</button>
+                                            <a href="./document-absenteisme.php" class="btn bg-purple btn-sm mt-0 mx-2">
+                                                <i class="fa-solid fa-print"></i> IMPRIMER</a>
                                         </div>
                                         <div class="">
                                             <ul class="pagination  m-0 float-right">
@@ -108,13 +110,13 @@ include_once "../../view/layouts/heade.php"
                                     </div>
                                     <div class="">
                                         <!-- impriment -->
-                                        <div class="d-flex justify-content-end row">
+                                        <!-- <div class="d-flex justify-content-end row">
                                             <div class="col-md-2 d-flex align-items-center input-groupe">
                                                 <a href="./document-absenteisme.php" class="btn  bg-purple py-2 btn-sm w-100">
                                                     <i class="fa-solid fa-print"></i>
                                                     IMPRIMER</a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>

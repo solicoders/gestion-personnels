@@ -70,8 +70,8 @@
                                 <div class="card-header p-2">
                                     <ul class="nav nav-pills">
                                         <li class="nav-item"><a class="nav-link active" href="#personnelles" data-toggle="tab">Personnelles</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#contact" data-toggle="tab">Contact</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#professionnelles" data-toggle="tab">Professionnelles</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#contact" data-toggle="tab">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="card-body">
