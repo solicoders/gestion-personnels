@@ -57,17 +57,6 @@
                                                         <a class="dropdown-item" href="#">2024</a>
                                                     </div>
                                                 </div>
-                                                <!--  -->
-                                                <div class="dropdown input-group">
-                                                    <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                        Type congés
-                                                    </button>
-                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                        <a class="dropdown-item" href="#">All congés</a>
-                                                        <a class="dropdown-item" href="#">congé actuelle</a>
-                                                    </div>
-                                                </div>
                                             </div>
 
                                             <div class=" p-0">
@@ -88,11 +77,11 @@
                                             <thead>
                                                 <tr>
                                                     <th>Matricule</th>
-                                                    <th>personnels</th>
+                                                    <th>Personnels</th>
                                                     <th>Date début</th>
                                                     <th>Date Fin</th>
-                                                    <th class="text-center">Jours restants</th>
-                                                    <th class="text-center">Actions</th>
+                                                    <th class="text-center">Durée accordé</th>
+                                                    <th class="text-center">Etat</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -106,8 +95,6 @@
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
                                                         </a>
-                                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
 
@@ -121,8 +108,6 @@
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
                                                         </a>
-                                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
 
@@ -136,8 +121,6 @@
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
                                                         </a>
-                                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
 
@@ -151,8 +134,6 @@
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
                                                         </a>
-                                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                             </tbody>
