@@ -78,10 +78,10 @@
                                                     <th>Personnel</th>
                                                     <th>Nom de mission</th>
                                                     <th>Lieu</th>
+                                                    <th>Durée</th>
                                                     <th>Date de départ <span class=" mx-2" style="cursor: pointer;"> <i
                                                                 class="fa-solid fa-sort"></i></span>
                                                     </th>
-                                                    <th>Durée</th>
                                                     <th class="text-center">Actions</th>
                                                 </tr>
                                             </thead>
@@ -91,8 +91,8 @@
                                                     <td>Madani ali</td>
                                                     <td>Voyage d'affaires</td>
                                                     <td>Rabat</td>
-                                                    <td>2024-03-01</td>
                                                     <td>2</td>
+                                                    <td>2024-03-01</td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -108,8 +108,8 @@
                                                     <td>Jalil Betroji</td>
                                                     <td>Conférence</td>
                                                     <td>casablanca</td>
-                                                    <td>2024-02-05</td>
                                                     <td>5</td>
+                                                    <td>2024-02-05</td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -125,8 +125,8 @@
                                                     <td>Lamchatab Amine</td>
                                                     <td>Conférence</td>
                                                     <td>Casablanca</td>
-                                                    <td>2024-01-17</td>
                                                     <td>5</td>
+                                                    <td>2024-01-17</td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -142,8 +142,8 @@
                                                     <td>hamid Achaou</td>
                                                     <td>Entraînement</td>
                                                     <td>Tanger</td>
-                                                    <td>2023-12-09</td>
                                                     <td>3</td>
+                                                    <td>2023-12-09</td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
