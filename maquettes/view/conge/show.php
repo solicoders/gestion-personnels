@@ -13,57 +13,56 @@
         <?php include_once "../layouts/aside.php" ?>
 
 
+        <div class="content-wrapper" style="min-height: 1604.44px;">
 
-        <div class="content-wrapper" style="min-height: 1302.4px;">
-            <div class="content-header">
+            <section class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Détails du Congé</h1>
+                            <h1>historique des congés</h1>
                         </div>
                         <div class="col-sm-6">
                             <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i class="fas fa-arrow-left"></i> Retoure</a>
                         </div>
-
                     </div>
                 </div>
-            </div>
+            </section>
+
             <section class="content">
                 <div class="container-fluid">
-                    <div class="">
+                    <div class="row">
+                        <div class="col-md-3">
 
-                        <div class="card card-widget">
-                            <div class="card-header bg-purple">
-                                <div class="user-block">
-                                    <img class="img-circle" src="../assets/images/user.png" alt="User Image">
-                                    <h3 class="username">mohamed Alami</h3>
-                                    <h5 class="description text-light">Matricule : 65266337</h5>
-                                    <!-- <span class="description">Joure restant : <span class="text-danger h5">6</span></span> -->
-                                </div>
-
-                                <div class="card-tools">
-                                    <!-- <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                        <i class="fas fa-minus"></i>
-                                    </button> -->
-
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5 class="description text-dark">Joure restant : <span class="">- 6</span></h5>
-                                        </div>
-                                        <!-- <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                        <i class="fas fa-minus"></i>
-                                    </button> -->
-
+                            <div class="card card-info card-outline">
+                                <div class="card-body box-profile">
+                                    <div class="text-center">
+                                        <img class="profile-user-img img-fluid img-circle" src="../assets/images/user.png" alt="User profile picture">
                                     </div>
+                                    <h3 class="profile-username text-center">Mohamed Ali</h3>
+                                    <p class="text-muted text-center">143322</p>
+                                    <ul class="list-group list-group-unbordered mb-3">
+                                        <li class="list-group-item">
+                                            <b>Fonction</b> <a class="float-right">Developper</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <b>Phone</b> <a class="float-right">+212798763543</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <b>Type</b> <a class="float-right">Directeur</a>
+                                        </li>
+                                    </ul>
                                 </div>
 
                             </div>
 
-                            <div class="card-body">
+                        </div>
+
+                        <div class="col-md-9">
+                            <section class="content">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-12">
-                                            <div class="card">
+                                            <div class="card  card-info card-outline">
                                                 <div class="card-header col-md-12">
                                                     <div class="d-flex justify-content-between">
                                                         <div class="dropdown input-group">
@@ -99,7 +98,7 @@
                                                             <tr>
                                                                 <th>Date debut</th>
                                                                 <th>Date fin</th>
-                                                                <th class="text-center">durée accordé</th>
+                                                                <th class="text-center">Durée accordé</th>
                                                                 <th class="text-center">Actions</th>
                                                             </tr>
                                                         </thead>
@@ -171,19 +170,22 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
+                            </section>
 
                         </div>
 
                     </div>
+
                 </div>
             </section>
 
         </div>
+
         <!-- Inclure le pied de page -->
         <?php include_once "../layouts/footer.php" ?>
+
     </div>
+
     <!-- Inclure le script -->
     <?php include_once "../layouts/script-link.php" ?>
 </body>
