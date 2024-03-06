@@ -3,7 +3,7 @@
         <legend>Informations de mission</legend>
         <div class="row">
             <div class="form-group col-lg-6 col-12">
-                <label for="inputStartDate">Collaborateur <span class="text-danger">*</span></label>
+                <label for="inputStartDate">Personnel <span class="text-danger">*</span></label>
                 <input name="startDate" type="text" class="form-control" id="inputStartDate"
                     placeholder="Sélectionnez la date de début" value="madani ali">
             </div>
