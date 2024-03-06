@@ -33,11 +33,11 @@
                     <div class="">
 
                         <div class="card card-widget">
-                            <div class="card-header">
+                            <div class="card-header bg-purple">
                                 <div class="user-block">
                                     <img class="img-circle" src="../assets/images/user.png" alt="User Image">
-                                    <span class="username"><a href="#">mohamed Alami</a></span>
-                                    <span class="description">Matricule : 65266337</span>
+                                    <h3 class="username">mohamed Alami</h3>
+                                    <h5 class="description text-light">Matricule : 65266337</h5>
                                     <!-- <span class="description">Joure restant : <span class="text-danger h5">6</span></span> -->
                                 </div>
 
@@ -47,8 +47,8 @@
                                     </button> -->
 
                                     <div class="card">
-                                        <div class="card-header bg-purple">
-                                            <span class="description">Joure restant : <span class=" h5">- 6</span></span>
+                                        <div class="card-header">
+                                            <h5 class="description text-dark">Joure restant : <span class="">- 6</span></h5>
                                         </div>
                                         <!-- <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                         <i class="fas fa-minus"></i>

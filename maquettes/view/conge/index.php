@@ -42,22 +42,7 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-header col-md-12">
-                                        <div class="d-flex justify-content-between">
-                                            <div class="d-md-flex">
-                                                <div class="dropdown input-group">
-                                                    <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                        Année
-                                                    </button>
-                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                        <a class="dropdown-item" href="#">2020</a>
-                                                        <a class="dropdown-item" href="#">2021</a>
-                                                        <a class="dropdown-item" href="#">2022</a>
-                                                        <a class="dropdown-item" href="#">2023</a>
-                                                        <a class="dropdown-item" href="#">2024</a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="d-flex justify-content-end">
 
                                             <div class=" p-0">
                                                 <div class="input-group input-group-sm">
@@ -73,71 +58,7 @@
                                     </div>
 
                                     <div class="card-body table-responsive p-0">
-                                        <table class="table table-striped text-nowrap">
-                                            <thead>
-                                                <tr>
-                                                    <th>Matricule</th>
-                                                    <th>Personnels</th>
-                                                    <th>Date début</th>
-                                                    <th>Date Fin</th>
-                                                    <th class="text-center">Durée accordé</th>
-                                                    <th class="text-center">Etat</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>20240228</td>
-                                                    <td>Mohamed Alami</td>
-                                                    <td>2024-02-28</td>
-                                                    <td>2024-02-28</td>
-                                                    <td class="text-center">5</td>
-                                                    <td class="d-flex justify-content-center">
-                                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>20242128</td>
-                                                    <td>Amin Lmadani</td>
-                                                    <td>2024-02-28</td>
-                                                    <td>2024-02-28</td>
-                                                    <td class="text-center">8</td>
-                                                    <td class="d-flex justify-content-center">
-                                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>20244328</td>
-                                                    <td>Jalil Alami</td>
-                                                    <td>2024-02-28</td>
-                                                    <td>2024-02-28</td>
-                                                    <td class="text-center">2</td>
-                                                    <td class="d-flex justify-content-center">
-                                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>20244328</td>
-                                                    <td>khalid lmadani</td>
-                                                    <td>2024-02-28</td>
-                                                    <td>2024-02-28</td>
-                                                    <td class="text-center">3</td>
-                                                    <td class="d-flex justify-content-center">
-                                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                                            <i class="far fa-eye"></i>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <?php include_once "./table-index.php" ?>
                                     </div>
 
                                     <div class="d-flex justify-content-between align-items-center p-2">

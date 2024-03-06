@@ -35,27 +35,7 @@
                                         <div class="card">
                                             <div class="card-header col-md-12">
                                                 <div class="d-flex justify-content-between">
-                                                    <div class="dropdown input-group">
-                                                        <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                            <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                            anées
-                                                        </button>
-                                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                            <a class="dropdown-item" href="#">2024</a>
-                                                            <a class="dropdown-item" href="#">2024</a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class=" p-0">
-                                                        <div class="input-group input-group-sm">
-                                                            <input type="text" name="table_search" class="form-control" placeholder="Recherche">
-                                                            <div class="input-group-append">
-                                                                <button type="submit" class="btn btn-default">
-                                                                    <i class="fas fa-search"></i>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                   
                                                 </div>
                                             </div>
 
