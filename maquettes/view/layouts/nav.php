@@ -8,10 +8,35 @@
     </ul>
 
     <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
+                <i class="fa-solid fa-school"></i><span class="m-2">Solicoder</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px;">
+                <span class="dropdown-item dropdown-header">les établissement</span>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item"> <span>Solicoder</span>
 
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">
+                    <span>Ntic</span>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">
+                    <span>Ibn marhal</span>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">
+                    <span>Tous les établissements</span>
+                </a>
+                <div class="dropdown-divider"></div>
+            </div>
+        </li>
         <li class="nav-item dropdown user-menu">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                <img src="/view/assets/images/man.png" class="user-image img-circle elevation-2" alt="Image d'utilisateur">
+                <img src="/view/assets/images/man.png" class="user-image img-circle elevation-2"
+                    alt="Image d'utilisateur">
                 <span class="d-none d-md-inline">Directeur</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
@@ -19,7 +44,7 @@
                 <li class="user-header bg-info">
                     <img src="/view/assets/images/man.png" class="img-circle elevation-2" alt="Image d'utilisateur">
                     <p>
-                    Directeur
+                        Directeur
                         <small>Membre depuis le 28/12/2023</small>
                     </p>
                 </li>

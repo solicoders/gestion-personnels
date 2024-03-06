@@ -10,7 +10,7 @@
         <?php include_once "./layouts/nav.php" ?>
         <!-- Barre latérale -->
         <?php include_once "./layouts/aside.php" ?>
-        
+
         <div class="content-wrapper pt-4">
             <div class="content-header">
                 <div class="container-fluid">
@@ -44,7 +44,7 @@
                             <div class="small-box bg-success">
                                 <div class="inner">
                                     <h3>13</h3>
-                                    <p>administrateurs</p>
+                                    <p>Administrateurs</p>
                                 </div>
                                 <div class="icon">
                                     <i class="ion ion-stats-bars"></i>
@@ -59,7 +59,7 @@
                             <div class="small-box bg-warning">
                                 <div class="inner">
                                     <h3>6</h3>
-                                    <p>congé actuel</p>
+                                    <p>Congé actuel</p>
                                 </div>
                                 <div class="icon">
                                     <i class="ion ion-pie-graph"></i>
@@ -69,7 +69,7 @@
                             </div>
                         </div>
 
-                        
+
                         <div class="col-lg-3 col-6">
 
                             <div class="small-box bg-danger">
