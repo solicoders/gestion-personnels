@@ -72,8 +72,8 @@
                                         <table class="table table-striped text-nowrap">
                                             <thead>
                                                 <tr>
-                                                    <th>Matricule</th>
-                                                    <th>Collaborateur</th>
+                                                    <th>Matricules</th>
+                                                    <th>Personnels</th>
                                                     <th>Nom de mission</th>
                                                     <th>Lieu</th>
                                                     <th>Durée</th>
