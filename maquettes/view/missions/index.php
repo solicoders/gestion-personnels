@@ -49,10 +49,9 @@
                                                             class="fas fa-filter "></i></label>
                                                     <select class="form-select form-control"
                                                         id="filterSelectProjrctValue" aria-label="Filter Select">
-                                                        <option value="précédent">Liste des ordres des missions
-                                                            précédents</option>
-                                                        <option value="actuelles">Liste des ordres des missions
-                                                            actuelles</option>
+                                                        <option value="précédent">Rabat</option>
+                                                        <option value="précédent">casablanca</option>
+                                                        <option value="précédent">Tanger</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -79,7 +78,7 @@
                                                     <th>Personnel</th>
                                                     <th>Nom de mission</th>
                                                     <th>Lieu</th>
-                                                    <th>Date de départ <span class=" mx-2"> <i
+                                                    <th>Date de départ <span class=" mx-2" style="cursor: pointer;"> <i
                                                                 class="fa-solid fa-sort"></i></span>
                                                     </th>
                                                     <th>Durée</th>
@@ -92,7 +91,7 @@
                                                     <td>Madani ali</td>
                                                     <td>Voyage d'affaires</td>
                                                     <td>Rabat</td>
-                                                    <td>2024-3-01</td>
+                                                    <td>2024-03-01</td>
                                                     <td>2</td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
@@ -109,7 +108,7 @@
                                                     <td>Jalil Betroji</td>
                                                     <td>Conférence</td>
                                                     <td>casablanca</td>
-                                                    <td>2024-2-05</td>
+                                                    <td>2024-02-05</td>
                                                     <td>5</td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
@@ -126,7 +125,7 @@
                                                     <td>Lamchatab Amine</td>
                                                     <td>Conférence</td>
                                                     <td>Casablanca</td>
-                                                    <td>2024-1-17</td>
+                                                    <td>2024-01-17</td>
                                                     <td>5</td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
