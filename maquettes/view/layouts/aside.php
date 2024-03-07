@@ -25,32 +25,16 @@ $current_route = $_SERVER['REQUEST_URI'];
                 <!-- end package Accueil -->
 
                 <!-- start package Personnels -->
+
+
                 <li class="nav-item">
-                    <a href=""
+                    <a href="/view/personnels/index.php"
                         class="nav-link <?php echo (strpos($current_route, 'personnels') !== false) ? 'active' : ''; ?>">
                         <i class="fa-solid fa-users mr-2"></i>
                         <p class="">
                             Personnels
-                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview"
-                        style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
-                        <li class="nav-item">
-                            <a href="/view/personnels/index.php"
-                                class="nav-link <?php echo (strpos($current_route, 'personnels/index.php') !== false) ? 'active' : ''; ?>">
-                                <i class="fa-solid fa-bars-staggered mr-2"></i>
-                                <p class="">List des personnels</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/view/personnels/attestation-des-travaux.php"
-                                class="nav-link <?php echo (strpos($current_route, 'personnels/attestation-des-travaux.php') !== false) ? 'active' : ''; ?>">
-                                <i class="fa-regular fa-file-lines mr-2"></i>
-                                <p class="">Attestation des travaux</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
                 <!-- end package Personnels -->
 
@@ -68,62 +52,29 @@ $current_route = $_SERVER['REQUEST_URI'];
 
                 <!-- start package Congés -->
                 <li class="nav-item">
-                    <a href=""
+                    <a href="/view/conge/index.php"
                         class="nav-link <?php echo (strpos($current_route, 'conge') !== false) ? 'active' : ''; ?>">
-                        <i class="fa-solid fa-users mr-2"></i>
+                        <i class="fa-solid fa-bars-staggered mr-2"></i>
                         <p class="">
                             Congés
-                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview"
-                        style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
-                        <li class="nav-item">
-                            <a href="/view/conge/index.php"
-                                class="nav-link <?php echo (strpos($current_route, 'conge/index.php') !== false) ? 'active' : ''; ?>">
-                                <i class="fa-solid fa-bars-staggered mr-2"></i>
-                                <p class="">List des congés</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/view/conge/décision-des-congés.php"
-                                class="nav-link <?php echo (strpos($current_route, 'conge/décision-des-congés.php') !== false) ? 'active' : ''; ?>">
-                                <i class="fa-regular fa-file-lines mr-2"></i>
-                                <p class="">Décision des congés</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
+
+
                 <!-- end package Congés -->
 
                 <!-- start package Absences -->
                 <li class="nav-item">
-                    <a href=""
+                    <a href="/view/absences/index.php"
                         class="nav-link <?php echo (strpos($current_route, 'absences') !== false) ? 'active' : ''; ?>">
                         <i class="fa-regular fa-calendar-minus mr-2"></i>
                         <p class="">
                             Absences
-                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview"
-                        style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
-                        <li class="nav-item">
-                            <a href="/view/absences/index.php"
-                                class="nav-link <?php echo (strpos($current_route, 'absences/index.php') !== false) ? 'active' : ''; ?>">
-                                <i class="fa-solid fa-bars-staggered mr-2"></i>
-                                <p class="">List des absences</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/view/absences/maquette-absentéisme.html"
-                                class="nav-link <?php echo (strpos($current_route, 'absences/maquette-absentéisme.php') !== false) ? 'active' : ''; ?>">
-                                <i class="fa-regular fa-file-lines mr-2"></i>
-                                <p class="">Maquette d'absentéisme</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
+
                 <!-- start package Absences -->
 
                 <!-- start package Missions -->
