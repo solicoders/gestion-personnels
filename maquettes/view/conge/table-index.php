@@ -4,7 +4,7 @@
             <th>Matricule</th>
             <th>Personnels</th>
             <th class="text-center">Dérnier congé</th>
-            <th class="text-center">jour réston</th>
+            <th class="text-center">Jours restant</th>
             <th class="text-center">Etat</th>
         </tr>
     </thead>

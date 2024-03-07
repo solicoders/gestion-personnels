@@ -17,7 +17,7 @@
                     <div class="callout callout-success bg-light">
                         <div class="d-flex">
                             <label for="Jours-restants">Nombre du Jours restants :</label>
-                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 1</h5>
+                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 18</h5>
                             <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="22 - Nombre de jours = 23 & cliquez pour plus de détails"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                     <div class="callout callout-warning bg-light">
                         <div class="d-flex">
                             <label for="Jours-restants">Nombre du Jours possible :</label>
-                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 7</h5>
+                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 24</h5>
                             <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="Nombre du Jours possible = 6 + Nombre du Jours restants"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
                         </div>
                     </div>
@@ -105,9 +105,21 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>2024-02-28</td>
-                                    <td>2024-03-2</td>
+                                    <td>2023-12-2</td>
+                                    <td>2024-12-9</td>
                                     <td class="text-center">6</td>
+                                    <td class="text-center">
+                                        <a href="./show.php" class='btn btn-default btn-sm'>
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2023-7-12</td>
+                                    <td>2023-12-19</td>
+                                    <td class="text-center">5</td>
                                     <td class="text-center">
                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                             <i class="far fa-eye"></i>

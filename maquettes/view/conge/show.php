@@ -22,7 +22,8 @@
                             <h1>Historique des congés</h1>
                         </div>
                         <div class="col-sm-6">
-                            <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i class="fas fa-arrow-left"></i> Retoure</a>
+                            <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i
+                                    class="fas fa-arrow-left"></i> Retoure</a>
                         </div>
                     </div>
                 </div>
@@ -33,24 +34,28 @@
                     <div class="row">
                         <div class="col-md-3">
 
-                            <div class="card card-info card-outline">
+                            <div class="card card-purple card-outline">
                                 <div class="card-body box-profile">
                                     <div class="text-center">
-                                        <img class="profile-user-img img-fluid img-circle" src="../assets/images/user.png" alt="User profile picture">
+                                        <img class="profile-user-img img-fluid img-circle"
+                                            src="../assets/images/user.png" alt="User profile picture">
                                     </div>
                                     <h3 class="profile-username text-center">Mohamed Ali</h3>
                                     <p class="text-muted text-center">143322</p>
                                     <ul class="list-group list-group-unbordered mb-3">
                                         <li class="list-group-item">
-                                            <b>Fonction</b> <a class="float-right">Developper</a>
+                                            <b>Fonction</b> <a class="float-right text-purple">Developper</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <b>Phone</b> <a class="float-right">+212798763543</a>
+                                            <b>Phone</b> <a class="float-right text-purple">+212798763543</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <b>Type</b> <a class="float-right">Directeur</a>
+                                            <b>Type</b> <a class="float-right text-purple">Directeur</a>
                                         </li>
                                     </ul>
+                                    <a href="/view/personnels/show.php" class="btn bg-purple btn-block"
+                                        style="margin-top: 2rem"><b>Plus
+                                            d'informations</b></a>
                                 </div>
 
                             </div>
@@ -62,30 +67,44 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-12">
-                                            <div class="card  card-info card-outline">
+                                            <div class="card card-purple card-outline">
                                                 <div class="card-header col-md-12">
-                                                    <div class="d-flex justify-content-between">
-                                                        <div class="dropdown input-group">
-                                                            <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                                Année
-                                                            </button>
-                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                                <a class="dropdown-item" href="#">2020</a>
-                                                                <a class="dropdown-item" href="#">2021</a>
-                                                                <a class="dropdown-item" href="#">2022</a>
-                                                                <a class="dropdown-item" href="#">2023</a>
-                                                                <a class="dropdown-item" href="#">2024</a>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class=" p-0">
-                                                            <div class="input-group input-group-sm">
-                                                                <input type="text" name="table_search" class="form-control" placeholder="Recherche">
+                                                    <div class="row justify-content-between">
+                                                        <div class="col-4">
+                                                            <div class="input-group input-group">
                                                                 <div class="input-group-append">
                                                                     <button type="submit" class="btn btn-default">
-                                                                        <i class="fas fa-search"></i>
+                                                                        <i class="fas fa-filter "></i>
                                                                     </button>
+                                                                </div>
+                                                                <select class="form-select form-control"
+                                                                    id="filterSelectProjrctValue"
+                                                                    aria-label="Filter Select">
+                                                                    <option value="précédent">select anées</option>
+                                                                    <option value="précédent">2024</option>
+                                                                    <option value="précédent">2023</option>
+                                                                    <option value="précédent">2022</option>
+                                                                    <option value="précédent">2021</option>
+                                                                    <option value="précédent">2020</option>
+                                                                </select>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="d-flex justify-content-end">
+
+                                                                <div class=" p-0">
+                                                                    <div class="input-group input-group">
+                                                                        <input type="text" name="table_search"
+                                                                            class="form-control"
+                                                                            placeholder="Recherche">
+                                                                        <div class="input-group-append">
+                                                                            <button type="submit"
+                                                                                class="btn btn-default">
+                                                                                <i class="fas fa-search"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -108,8 +127,12 @@
                                                                 <td>2024-03-6</td>
                                                                 <td class="text-center">5</td>
                                                                 <td class="text-center">
-                                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button"
+                                                                        class="btn btn-sm btn-danger"><i
+                                                                            class="fa-solid fa-trash"></i></button>
                                                                 </td>
                                                             </tr>
 
@@ -118,8 +141,12 @@
                                                                 <td>2024-02-19</td>
                                                                 <td class="text-center">3</td>
                                                                 <td class="text-center">
-                                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button"
+                                                                        class="btn btn-sm btn-danger"><i
+                                                                            class="fa-solid fa-trash"></i></button>
                                                                 </td>
                                                             </tr>
 
@@ -128,18 +155,37 @@
                                                                 <td>2024-02-29</td>
                                                                 <td class="text-center">7</td>
                                                                 <td class="text-center">
-                                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button"
+                                                                        class="btn btn-sm btn-danger"><i
+                                                                            class="fa-solid fa-trash"></i></button>
                                                                 </td>
                                                             </tr>
 
                                                             <tr>
-                                                                <td>2024-02-19</td>
+                                                                <td>2024-02-23</td>
                                                                 <td>2024-03-2</td>
                                                                 <td class="text-center">10</td>
                                                                 <td class="text-center">
-                                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button" class="btn btn-sm btn-danger">
+                                                                        <i class="fa-solid fa-trash"></i></button>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2024-02-27</td>
+                                                                <td>2024-03-2</td>
+                                                                <td class="text-center">10</td>
+                                                                <td class="text-center">
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button" class="btn btn-sm btn-danger">
+                                                                        <i class="fa-solid fa-trash"></i></button>
                                                                 </td>
                                                             </tr>
 
@@ -147,22 +193,32 @@
                                                     </table>
                                                 </div>
 
-                                                <div class="d-flex justify-content-between align-items-center p-2">
-                                                    <div class="d-flex align-items-center mb-2">
+                                                <div class="row justify-content-between p-2">
+                                                    <div class="col-6 align-self-end">
                                                         <button type="button" class="btn btn-default btn-sm">
                                                             <i class="fa-solid fa-file-arrow-down"></i>
                                                             IMPORTER</button>
-                                                        <button type="button" class="btn btn-default btn-sm mt-0 mx-2">
+                                                        <button type="button" class="btn btn-default btn-sm ">
                                                             <i class="fa-solid fa-file-export"></i>
                                                             EXPORTER</button>
                                                     </div>
-                                                    <div class="mr-5">
+                                                    <div class="col-6">
                                                         <ul class="pagination  m-0 float-right">
-                                                            <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
-                                                            <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
-                                                            <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
-                                                            <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
-                                                            <li class="page-item"><a class="page-link text-secondary" href="#">»</a></li>
+                                                            <li class="page-item"><a class="page-link text-secondary"
+                                                                    href="#">«</a>
+                                                            </li>
+                                                            <li class="page-item"><a
+                                                                    class="page-link text-secondary active"
+                                                                    href="#">1</a></li>
+                                                            <li class="page-item"><a class="page-link text-secondary"
+                                                                    href="#">2</a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link text-secondary"
+                                                                    href="#">3</a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link text-secondary"
+                                                                    href="#">»</a>
+                                                            </li>
                                                         </ul>
                                                     </div>
                                                 </div>
