@@ -5,7 +5,7 @@
 <script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
-    $.widget.bridge('uibutton', $.ui.button)
+$.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
 <script src="../../node_modules/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -39,9 +39,9 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 <script>
-    $(document).ready(function () {
-        $('.js-example-basic-single').select2();
-    });
+$(document).ready(function() {
+    $('.js-example-basic-single').select2();
+});
 </script>
 
 <!-- input Date Range Picker -->
@@ -49,20 +49,18 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 <script>
-    $(function () {
-        $('input[name="daterange"]').daterangepicker({
-            opens: 'left'
-        }, function (start, end, label) {
-            console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end
-                .format('YYYY-MM-DD'));
-        });
+$(function() {
+    $('input[name="daterange"]').daterangepicker({
+        opens: 'left'
+    }, function(start, end, label) {
+        console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end
+            .format('YYYY-MM-DD'));
     });
-
-<
-        !--Include CKEditor 5 CDN-- >
-            <
-script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js" >
+});
 </script>
+<script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js">
+</script>
+
 <!-- script packages -->
 <script src="/view/assets/js/app.js"></script>
 <script src="/view/assets/js/absences.js"></script>
