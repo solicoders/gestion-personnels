@@ -52,7 +52,7 @@
                                             <b>Type</b> <a class="float-right text-teal">Directeur</a>
                                         </li>
                                     </ul>
-                                    <a href="/view/personnels/show.php" class="btn bg-teal btn-block"
+                                    <a href="/view/personnels/more-info.php" class="btn bg-teal btn-block"
                                         style="margin-top: 2rem"><b>Plus
                                             d'informations</b></a>
                                 </div>
@@ -124,7 +124,8 @@
                                                                 <td class="text-center">5</td>
                                                                 <td>14/02/2024</td>
                                                                 <td class="text-center">
-                                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                                    <a href="./more-info.php"
+                                                                        class='btn btn-default btn-sm'>
                                                                         <i class="far fa-eye"></i>
                                                                     </a>
                                                                     <a href="./edit.php" class="btn btn-sm btn-default">
@@ -142,7 +143,8 @@
                                                                 <td class="text-center">8</td>
                                                                 <td>21/02/2024</td>
                                                                 <td class="text-center">
-                                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                                    <a href="./more-info.php"
+                                                                        class='btn btn-default btn-sm'>
                                                                         <i class="far fa-eye"></i>
                                                                     </a>
                                                                     <a href="./edit.php" class="btn btn-sm btn-default">
@@ -161,7 +163,8 @@
                                                                 <td class="text-center">3</td>
                                                                 <td>03/03/2024</td>
                                                                 <td class="text-center">
-                                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                                    <a href="./more-info.php"
+                                                                        class='btn btn-default btn-sm'>
                                                                         <i class="far fa-eye"></i>
                                                                     </a>
                                                                     <a href="./edit.php" class="btn btn-sm btn-default">
@@ -180,7 +183,8 @@
                                                                 <td class="text-center">6</td>
                                                                 <td>09/03/2024</td>
                                                                 <td class="text-center">
-                                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                                    <a href="./more-info.php"
+                                                                        class='btn btn-default btn-sm'>
                                                                         <i class="far fa-eye"></i>
                                                                     </a>
                                                                     <a href="./edit.php" class="btn btn-sm btn-default">
@@ -199,7 +203,8 @@
                                                                 <td class="text-center">4</td>
                                                                 <td>17/03/2024</td>
                                                                 <td class="text-center">
-                                                                    <a href="./show.php" class='btn btn-default btn-sm'>
+                                                                    <a href="./more-info.php"
+                                                                        class='btn btn-default btn-sm'>
                                                                         <i class="far fa-eye"></i>
                                                                     </a>
                                                                     <a href="./edit.php" class="btn btn-sm btn-default">
