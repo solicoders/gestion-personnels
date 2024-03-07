@@ -41,37 +41,5 @@
     <?php include_once "../layouts/script-link.php" ?>
     
 
-    <style>
-    .tooltip {
-        position: relative;
-        display: inline-block;
-        border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-        cursor: help; /* Change cursor to a question mark */
-    }
-    
-    .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 120px;
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: 50%;
-        margin-left: -60px; /* Use half of the width (120px) to center the tooltip */
-        opacity: 0;
-        transition: opacity 0.3s;
-    }
-    
-    .tooltip:hover .tooltiptext {
-        visibility: visible;
-        opacity: 1;
-    }
-</style>
-
-
 </body>
 </html>

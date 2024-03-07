@@ -86,8 +86,8 @@ $current_route = $_SERVER['REQUEST_URI'];
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/view/conge/décision-des-congés.php"
-                                class="nav-link <?php echo (strpos($current_route, 'conge/décision-des-congés.php') !== false) ? 'active' : ''; ?>">
+                            <a href="/view/conge/decision-des-conges.php"
+                                class="nav-link <?php echo (strpos($current_route, 'conge/decision-des-conges.php') !== false) ? 'active' : ''; ?>">
                                 <i class="fa-regular fa-file-lines mr-2"></i>
                                 <p class="">Décision des congés</p>
                             </a>

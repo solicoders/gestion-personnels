@@ -16,18 +16,18 @@
                 <div class="col-md-6">
                     <div class="callout callout-success bg-light">
                         <div class="d-flex">
-                            <h4 for="Jours-restants">Nombre du Jours restants</h4>
-                            <h5 name="Jours-restants" class="pl-3 pt-1" id="Jours-restants"> 1</h5>
-                            <h4><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="22 - Nombre de jours = 23 & cliquez pour plus de détails"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></h4>
+                            <label for="Jours-restants">Nombre du Jours restants :</label>
+                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 1</h5>
+                            <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="22 - Nombre de jours = 23 & cliquez pour plus de détails"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="callout callout-warning bg-light">
                         <div class="d-flex">
-                            <h4 for="Jours-restants">Nombre du Jours possible</h4>
-                            <h5 name="Jours-restants" class="pl-3 pt-1" id="Jours-restants"> 7</h5>
-                            <h4><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="Nombre du Jours possible = 6 + Nombre du Jours restants"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></h4>
+                            <label for="Jours-restants">Nombre du Jours possible :</label>
+                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 7</h5>
+                            <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="Nombre du Jours possible = 6 + Nombre du Jours restants"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
                         </div>
                     </div>
                 </div>
@@ -59,9 +59,29 @@
                 <div class="card card-info c">
                     <div class="card-header col-md-12">
                         <div class="">
+                            <div class="">
+                                <div class="">
+                                    <div class="d-flex">
+                                        <label for="Jours-restants text-dark">Nombre du Jours restants =</label>
+                                        <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 22 - Nombre de jours</h5>
+                                        <!-- <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="22 - Nombre de jours = 23 & cliquez pour plus de détails"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="">
+                                    <div class="d-flex">
+                                        <label for="Jours-restants">Nombre du Jours possible :</label>
+                                        <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> Nombre du Jours restants + 6</h5>
+                                        <!-- <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="Nombre du Jours possible = 6 + Nombre du Jours restants"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="">
                             <h4><span class="text-dark h3">Nombre du Jours restants</span> = 22 - Nombre de jours </h4>
                             <h4><span class="text-dark h3">Nombre du Jours possible</span> = Nombre du Jours restants + 6</h4>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="card-body table-responsive p-0">
