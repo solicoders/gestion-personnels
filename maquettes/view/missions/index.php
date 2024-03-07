@@ -120,7 +120,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>180</td>
-                                                    <td>Jalil Betroji</td>
+                                                    <td>Fatima El Khalil</td>
                                                     <td>Conférence</td>
                                                     <td>casablanca</td>
                                                     <td>5</td>
@@ -136,7 +136,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>90</td>
-                                                    <td>Lamchatab Amine</td>
+                                                    <td>Ahmed Touzani</td>
                                                     <td>Conférence</td>
                                                     <td>Casablanca</td>
                                                     <td>5</td>
@@ -152,7 +152,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>69</td>
-                                                    <td>hamid Achaou</td>
+                                                    <td>Youssef Bouzid</td>
                                                     <td>Entraînement</td>
                                                     <td>Tanger</td>
                                                     <td>3</td>
