@@ -42,7 +42,7 @@
 <!-- script pa -->
 <script src="/view/assets/js/app.js"></script>
 <script src="/view/assets/js/absences.js"></script>
-<script src="/view/assets/js/categorie.js"></script>
-<script src="/view/assets/js/conge.js"></script>
+<script src="/view/assets/js/categories.js"></script>
+<script src="/view/assets/js/conges.js"></script>
 <script src="/view/assets/js/missions.js"></script>
 <script src="/view/assets/js/personnels.js"></script>
