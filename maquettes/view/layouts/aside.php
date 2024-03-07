@@ -79,32 +79,15 @@ $current_route = $_SERVER['REQUEST_URI'];
 
                 <!-- start package Missions -->
                 <li class="nav-item">
-                    <a href=""
+                    <a href="/view/missions/index.php"
                         class="nav-link <?php echo (strpos($current_route, 'missions') !== false) ? 'active' : ''; ?>">
                         <i class="fa-solid fa-business-time mr-2"></i>
                         <p class="">
                             Missions
-                            <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview"
-                        style="display: none; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
-                        <li class="nav-item">
-                            <a href="/view/missions/index.php"
-                                class="nav-link <?php echo (strpos($current_route, 'missions/index.php') !== false) ? 'active' : ''; ?>">
-                                <i class="fa-solid fa-bars-staggered mr-2"></i>
-                                <p>List des missions</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/view/missions/ordre-des-missions.php"
-                                class="nav-link <?php echo (strpos($current_route, 'missions/ordre-des-missions.php') !== false) ? 'active' : ''; ?>">
-                                <i class="fa-regular fa-file-lines mr-2"></i>
-                                <p class="">Ordre des missions</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
+
                 <!-- end package Missions -->
             </ul>
         </nav>
