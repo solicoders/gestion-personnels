@@ -19,7 +19,23 @@
 
 
             <div class="content-wrapper pt-4" style="min-height: 1302.4px;">
-                <section class="content px-5 mx-4 card">
+
+                <div class="content-header">
+                    <div class="container-fluid">
+                        <div class="row mb-2">
+                            <div class="col-sm-6">
+                                <h1>Liste des congés</h1>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="float-sm-right">
+                                    <button id="printButton" class="btn bg-purple"><i class="fa-solid fa-print"></i> Imprimer</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="content px-4 mx-4 card">
                     <div class=" d-flex justify-content-center">
                         <img src="../assets/images/logo-ofppt.jpeg" alt="" height="130px" width="auth">
                     </div>
@@ -94,6 +110,13 @@
         </div>
 
     </div>
+
+    <!-- Inclure le script -->
+    <script>
+        document.getElementById("printButton").addEventListener("click", function() {
+            window.print();
+        });
+    </script>
 </body>
 
 
