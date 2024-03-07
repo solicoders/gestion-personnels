@@ -4,7 +4,7 @@ $current_route = $_SERVER['REQUEST_URI'];
 
 <aside class="main-sidebar sidebar-dark-info elevation-4 position-fixed">
     <!-- Logo de la marque -->
-    <a href="index.php" class="brand-link">
+    <a href="/view/home.php" class="brand-link">
         <img src="/view/assets/images/logo.png" class="brand-image img-circle elevation-3" alt="Image de groupe">
         <h6 class="brand-text font-weight-light text-center ">Gestion Personnelles</h6>
     </a>

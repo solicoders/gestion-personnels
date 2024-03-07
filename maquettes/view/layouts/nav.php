@@ -10,7 +10,8 @@
     <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
-                <i class="fa-solid fa-school"></i><span class="m-2">Solicoder</span>
+                <i class="fa-solid fa-school"></i><span class="m-2">Solicoder <span class="ml-2"><i
+                            class="fa-solid fa-sort-down"></i></span></span>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px;">
                 <span class="dropdown-item dropdown-header">les établissement</span>
