@@ -43,17 +43,6 @@
                                     <div class="card-header col-md-12">
                                         <div class="row justify-content-between">
                                             <div class="col-4">
-                                                <!-- <div class="input-group">
-                                                    <label class="input-group-text bg-default"
-                                                        for="filterSelectProjrctValue"><i
-                                                            class="fas fa-filter "></i></label>
-                                                    <select class="form-select form-control"
-                                                        id="filterSelectProjrctValue" aria-label="Filter Select">
-                                                        <option value="précédent">Rabat</option>
-                                                        <option value="précédent">casablanca</option>
-                                                        <option value="précédent">Tanger - ibn marhal</option>
-                                                    </select>
-                                                </div> -->
                                             </div>
                                             <div class="col-4">
                                                 <div class="d-flex justify-content-end">
