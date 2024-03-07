@@ -57,7 +57,7 @@
                                             <ul>
                                                 <li><span class="text-bold">Marque :</span> Toyota</li>
                                                 <li><span class="text-bold">Numéro de plaque :</span> ABC123</li>
-                                                <li><span class="text-bold">Puissance fiscale :</span> 500DH</li>
+                                                <li><span class="text-bold">Puissance fiscale :</span> 4cv</li>
                                             </ul>
                                         </div>
                                         <!-- Numéro d'ordre de mission-->
