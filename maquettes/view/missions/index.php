@@ -56,14 +56,17 @@
                                                 </div> -->
                                             </div>
                                             <div class="col-4">
-                                                <div class="p-0">
-                                                    <div class="input-group input-group">
-                                                        <input type="text" name="table_search" class="form-control"
-                                                            placeholder="Recherche">
-                                                        <div class="input-group-append">
-                                                            <button type="submit" class="btn btn-default">
-                                                                <i class="fas fa-search"></i>
-                                                            </button>
+                                                <div class="d-flex justify-content-end">
+
+                                                    <div class=" p-0">
+                                                        <div class="input-group input-group-sm">
+                                                            <input type="text" name="table_search" class="form-control"
+                                                                placeholder="Recherche">
+                                                            <div class="input-group-append">
+                                                                <button type="submit" class="btn btn-default">
+                                                                    <i class="fas fa-search"></i>
+                                                                </button>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
