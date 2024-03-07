@@ -5,7 +5,7 @@
 <script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
-    $.widget.bridge('uibutton', $.ui.button)
+$.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
 <script src="../../node_modules/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -35,11 +35,18 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="../../node_modules/admin-lte/dist/js/pages/dashboard.js"></script>
 <script src="../../node_modules/admin-lte/dist/js/validationForm.js"></script>
-<!-- scripts -->
+<!-- scripts input2 (select mix with search) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.js-example-basic-single').select2();
+});
+</script>
 
 <!-- Include CKEditor 5 CDN -->
 <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
-<!-- script pa -->
+<!-- script packages -->
 <script src="/view/assets/js/app.js"></script>
 <script src="/view/assets/js/absences.js"></script>
 <script src="/view/assets/js/categories.js"></script>
