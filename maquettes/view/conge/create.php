@@ -28,88 +28,6 @@
                                 </div>
                                 <!-- Obtenir le formulaire -->
                                 <?php include_once "./form.php" ?>
-                            </section>
-                            <section class="card">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="card">
-                                            <div class="card-header col-md-12">
-                                                <div class="d-flex justify-content-between">
-                                                   
-                                                </div>
-                                            </div>
-
-                                            <div class="card-body table-responsive p-0">
-                                                <table class="table table-striped text-nowrap">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Date départ</th>
-                                                            <th>Date retour</th>
-                                                            <th class="text-center">Nombre de jours</th>
-                                                            <th class="text-center">Actions</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>2024-02-28</td>
-                                                            <td>2024-03-2</td>
-                                                            <td class="text-center">5</td>
-                                                            <td class="text-center">
-                                                                <a href="./show.php" class='btn btn-default btn-sm'>
-                                                                    <i class="far fa-eye"></i>
-                                                                </a>
-                                                                <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                                <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2024-02-28</td>
-                                                            <td>2024-03-2</td>
-                                                            <td class="text-center">3</td>
-                                                            <td class="text-center">
-                                                                <a href="./show.php" class='btn btn-default btn-sm'>
-                                                                    <i class="far fa-eye"></i>
-                                                                </a>
-                                                                <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                                <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2024-02-28</td>
-                                                            <td>2024-03-2</td>
-                                                            <td class="text-center">7</td>
-                                                            <td class="text-center">
-                                                                <a href="./show.php" class='btn btn-default btn-sm'>
-                                                                    <i class="far fa-eye"></i>
-                                                                </a>
-                                                                <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                                <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2024-02-28</td>
-                                                            <td>2024-03-2</td>
-                                                            <td class="text-center">6</td>
-                                                            <td class="text-center">
-                                                                <a href="./show.php" class='btn btn-default btn-sm'>
-                                                                    <i class="far fa-eye"></i>
-                                                                </a>
-                                                                <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                                <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
 
         </div>
     </div>
@@ -121,6 +39,39 @@
 
     <!-- Inclure le script -->
     <?php include_once "../layouts/script-link.php" ?>
-</body>
+    
 
+    <style>
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        cursor: help; /* Change cursor to a question mark */
+    }
+    
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px; /* Use half of the width (120px) to center the tooltip */
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+</style>
+
+
+</body>
 </html>

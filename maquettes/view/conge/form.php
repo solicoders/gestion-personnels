@@ -13,16 +13,22 @@
             </div>
 
             <div class="row">
-                <div class="px-2 py-2 col-md-6">
-                    <div class="form-group">
-                        <label for="Jours-restants">Nombre du Jours restants :</label>
-                        <h3 name="Jours-restants" class="form-control" id="Jours-restants">23</h3>
+                <div class="col-md-6">
+                    <div class="callout callout-success bg-light">
+                        <div class="d-flex">
+                            <h4 for="Jours-restants">Nombre du Jours restants</h4>
+                            <h5 name="Jours-restants" class="pl-3 pt-1" id="Jours-restants"> 1</h5>
+                            <h4><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="22 - Nombre de jours = 23 & cliquez pour plus de détails"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></h4>
+                        </div>
                     </div>
                 </div>
-                <div class="px-2 py-2 col-md-6">
-                    <div class="form-group">
-                        <label for="Jours-restants">Nombre du Jours possible :</label>
-                        <h3 name="Jours-restants" class="form-control" id="Jours-restants">29</h3>
+                <div class="col-md-6">
+                    <div class="callout callout-warning bg-light">
+                        <div class="d-flex">
+                            <h4 for="Jours-restants">Nombre du Jours possible</h4>
+                            <h5 name="Jours-restants" class="pl-3 pt-1" id="Jours-restants"> 7</h5>
+                            <h4><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="Nombre du Jours possible = 6 + Nombre du Jours restants"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -44,3 +50,89 @@
             <button type="submit" class="btn btn-info">Ajouter</button>
         </div>
 </form>
+
+</section>
+<section class="content" id="calcjourRestants">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-info c">
+                    <div class="card-header col-md-12">
+                        <div class="">
+                            <h4><span class="text-dark h3">Nombre du Jours restants</span> = 22 - Nombre de jours </h4>
+                            <h4><span class="text-dark h3">Nombre du Jours possible</span> = Nombre du Jours restants + 6</h4>
+                        </div>
+                    </div>
+
+                    <div class="card-body table-responsive p-0">
+                        <table class="table table-striped text-nowrap">
+                            <thead>
+                                <tr>
+                                    <th>Date départ</th>
+                                    <th>Date retour</th>
+                                    <th class="text-center">Nombre de jours</th>
+                                    <th class="text-center">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2024-02-28</td>
+                                    <td>2024-03-2</td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">
+                                        <a href="./show.php" class='btn btn-default btn-sm'>
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2024-02-28</td>
+                                    <td>2024-03-2</td>
+                                    <td class="text-center">3</td>
+                                    <td class="text-center">
+                                        <a href="./show.php" class='btn btn-default btn-sm'>
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2024-02-28</td>
+                                    <td>2024-03-2</td>
+                                    <td class="text-center">7</td>
+                                    <td class="text-center">
+                                        <a href="./show.php" class='btn btn-default btn-sm'>
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2024-02-28</td>
+                                    <td>2024-03-2</td>
+                                    <td class="text-center">6</td>
+                                    <td class="text-center">
+                                        <a href="./show.php" class='btn btn-default btn-sm'>
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
+                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+</div>
+</div>
+
+</section>
