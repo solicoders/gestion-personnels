@@ -9,8 +9,8 @@
     <!-- get app.css -->
     <link rel="stylesheet" href="/view/assets/css/app.css">
     <link rel="stylesheet" href="/view/assets/css/absences.css">
-    <link rel="stylesheet" href="/view/assets/css/categorie.css">
-    <link rel="stylesheet" href="/view/assets/css/conge.css">
+    <link rel="stylesheet" href="/view/assets/css/categories.css">
+    <link rel="stylesheet" href="/view/assets/css/conges.css">
     <link rel="stylesheet" href="/view/assets/css/missions.css">
     <link rel="stylesheet" href="/view/assets/css/personnels.css">
     <!-- tinymce  -->
