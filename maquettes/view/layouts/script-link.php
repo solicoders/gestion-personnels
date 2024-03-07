@@ -44,8 +44,25 @@ $(document).ready(function() {
 });
 </script>
 
+<!-- input Date Range Picker -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<script>
+$(function() {
+    $('input[name="daterange"]').daterangepicker({
+        opens: 'left'
+    }, function(start, end, label) {
+        console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end
+            .format('YYYY-MM-DD'));
+    });
+});
+</script>
+
 <!-- Include CKEditor 5 CDN -->
-<script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js">
+</script>
+
 <!-- script packages -->
 <script src="/view/assets/js/app.js"></script>
 <script src="/view/assets/js/absences.js"></script>
