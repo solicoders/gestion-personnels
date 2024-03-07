@@ -41,7 +41,7 @@
                                                         <label for="nomArab"
                                                             class="form-label d-flex flex-row-reverse">:
                                                             النسب</label>
-                                                        <input type="text" class="form-control" id="nomArab"
+                                                        <input type="text" class="form-control direction-rtl" id="nomArab"
                                                             name="nomArab" placeholder="أدخل النسب هنا" value=""
                                                             required>
                                                     </div>
@@ -59,7 +59,7 @@
                                                             class="form-label text-start d-flex flex-row-reverse"> :
                                                             الاسم</label>
                                                         <input type="text"
-                                                            class="form-control text-end d-flex flex-row-reverse"
+                                                            class="form-control text-end d-flex flex-row-reverse direction-rtl"
                                                             id="prenomArab" name="prenomArab"
                                                             placeholder="أدخل الاسم هنا" value="" required>
                                                     </div>

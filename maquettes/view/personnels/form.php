@@ -13,7 +13,7 @@
                     <div class="form-group pt-3 col-lg-6">
                         <label for="nomArab" class="form-label d-flex flex-row-reverse"> :
                             النسب<span class="text-danger">*</span> </label>
-                        <input type="text" class="form-control" id="nomArab" name="nomArab" placeholder="أدخل النسب هنا"
+                        <input type="text" class="form-control direction-rtl" id="nomArab" name="nomArab" placeholder="أدخل النسب هنا"
                             value="العلمي" required>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                     <div class="form-group pt-3 col-lg-6">
                         <label for="prenomArab" class="form-label text-start d-flex flex-row-reverse"> :
                             الاسم <span class="text-danger">*</span> </label>
-                        <input type="text" class="form-control text-end d-flex flex-row-reverse" id="prenomArab"
+                        <input type="text" class="form-control text-end d-flex flex-row-reverse direction-rtl" id="prenomArab"
                             name="prenomArab" placeholder="أدخل الاسم هنا" value="محمد" required>
                     </div>
                 </div>
