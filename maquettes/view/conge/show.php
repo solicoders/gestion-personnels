@@ -19,7 +19,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>historique des congés</h1>
+                            <h1>Historique des congés</h1>
                         </div>
                         <div class="col-sm-6">
                             <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i class="fas fa-arrow-left"></i> Retoure</a>

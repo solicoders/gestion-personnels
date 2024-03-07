@@ -3,8 +3,8 @@
 
         <div class="card-body">
             <div class="form-group">
-                <label for="exampleInputProject">Colaborateur : <span class="text-danger">*</span></label>
-                <select name="project" class="form-control" id="exampleInputProject">
+                <label for="exampleInputProject">personnel : <span class="text-danger">*</span></label>
+                <select name="project" class="form-control js-example-basic-single" id="exampleInputProject">
                     <option value="projet1">Mohamed alami</option>
                     <option value="projet2">ahmed Alami</option>
                     <option value="projet3">jalil alami</option>
@@ -56,34 +56,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <div class="card card-info c">
-                    <div class="card-header col-md-12">
-                        <div class="">
-                            <div class="">
-                                <div class="">
-                                    <div class="d-flex">
-                                        <label for="Jours-restants text-dark">Nombre du Jours restants =</label>
-                                        <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 22 - Nombre de jours</h5>
-                                        <!-- <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="22 - Nombre de jours = 23 & cliquez pour plus de détails"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div class="">
-                                    <div class="d-flex">
-                                        <label for="Jours-restants">Nombre du Jours possible :</label>
-                                        <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> Nombre du Jours restants + 6</h5>
-                                        <!-- <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="Nombre du Jours possible = 6 + Nombre du Jours restants"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="">
-                            <h4><span class="text-dark h3">Nombre du Jours restants</span> = 22 - Nombre de jours </h4>
-                            <h4><span class="text-dark h3">Nombre du Jours possible</span> = Nombre du Jours restants + 6</h4>
-                        </div> -->
-                    </div>
-
+                <div class="card">
                     <div class="card-body table-responsive p-0">
                         <table class="table table-striped text-nowrap">
                             <thead>

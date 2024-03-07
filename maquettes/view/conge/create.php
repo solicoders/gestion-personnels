@@ -29,17 +29,18 @@
                                 <!-- Obtenir le formulaire -->
                                 <?php include_once "./form.php" ?>
 
-        </div>
-    </div>
+                        </div>
+                    </div>
 
-    <!-- Inclure le pied de page -->
-    <?php include_once "../layouts/footer.php" ?>
+                    <!-- Inclure le pied de page -->
+                    <?php include_once "../layouts/footer.php" ?>
 
-    </div>
+                </div>
 
-    <!-- Inclure le script -->
-    <?php include_once "../layouts/script-link.php" ?>
-    
+                <!-- Inclure le script -->
+                <?php include_once "../layouts/script-link.php" ?>
+
 
 </body>
+
 </html>
