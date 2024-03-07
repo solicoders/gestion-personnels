@@ -41,7 +41,7 @@
                                         <div class="dropdown input-group">
                                             <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                établissement
+                                                Établissement
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                 <a class="dropdown-item" href="#">Solicode</a>
@@ -70,9 +70,9 @@
                                                 <th>Matricule</th>
                                                 <th>Nom</th>
                                                 <th>Prenom</th>
-                                                <th>téléphone</th>
-                                                <th>type</th>
-                                                <th>établissement</th>
+                                                <th>Téléphone</th>
+                                                <th>Fonction</th>
+                                                <th>Établissement</th>
                                                 <th class="text-center">Attestation</th>
                                                 <th class="text-center">Actions</th>
                                             </tr>
