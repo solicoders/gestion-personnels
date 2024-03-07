@@ -3,11 +3,12 @@
         <legend>Les Informations de mission</legend>
         <div class="row">
             <div class="form-group col-lg-6 col-12">
-                <label>Personnel</label>
-                <select class="form-control">
-                    <option>madani ali</option>
-                    <option>chami wld lhani</option>
-                    <option>lmchtab hamid</option>
+                <label for="inputEndDate">Personnel <span class="text-danger">*</span></label>
+                <select class="form-control js-example-basic-single">
+                    <option value="madani-ali">madani ali</option>
+                    <option value="chami-wld-lhani">chami wld lhani</option>
+                    <option value="madani-mohamed">madani mohamed</option>
+                    <!-- Add more options as needed -->
                 </select>
             </div>
             <div class="form-group col-lg-6 col-12">
@@ -37,24 +38,24 @@
             </div>
             <div class="form-group col-12 col-lg-6 moyens-de-transport">
                 <label for="date-de-fin">Moyens de transport <span class="text-danger">*</span></label>
-                <select class="form-control">
-                    <option class="voiture-de-personnel">Voiture de personnel</option>
-                    <option class="transport-public">Transport public</option>
-                    <option class="voiture-de-mission">Voiture de mission</option>
+                <select class="form-control select-moyens-de-transport">
+                    <option value="transport-public" class="transport-public">Transport public</option>
+                    <option value="voiture-de-mission" class="voiture-de-mission">Voiture de mission</option>
+                    <option value="voiture-de-personnel" class="voiture-de-personnel">Voiture de personnel</option>
                 </select>
             </div>
-            <div class="form-group col-lg-6 col-12">
+            <div class="form-group col-lg-6 col-12 transport-marque">
                 <label for="inputDescription">Marque <span class="text-danger">*</span></label>
                 <input name="nombreDuJour" type="text" class="form-control" id="nombreDuJour"
                     placeholder="Sélectionnez Numéro d'ordre de mission" value="Toyota">
             </div>
-            <div class="form-group col-lg-6 col-12">
+            <div class="form-group col-lg-6 col-12 transport-numéro-de-plaque">
                 <label for="inputDescription">Numéro de plaque <span class="text-danger">*</span></label>
                 <input name="nombreDuJour" type="text" class="form-control" id="nombreDuJour"
                     placeholder="Sélectionnez Numéro d'ordre de mission" value="ABC123">
             </div>
-            <div class="form-group col-lg-6 col-12">
-                <label for="inputDescription">Puissance fiscale <span class="text-danger">*</span></label>
+            <div class="form-group col-lg-6 col-12 transport-puissance-fiscale">
+                <label for="inputDescription">Puissance fiscale<span class="text-danger">*</span></label>
                 <input name="nombreDuJour" type="text" class="form-control" id="nombreDuJour"
                     placeholder="Sélectionnez Puissance fiscale" value="4cv">
             </div>

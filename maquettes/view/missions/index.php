@@ -43,7 +43,7 @@
                                     <div class="card-header col-md-12">
                                         <div class="row justify-content-between">
                                             <div class="col-4">
-                                                <div class="input-group">
+                                                <!-- <div class="input-group">
                                                     <label class="input-group-text bg-default"
                                                         for="filterSelectProjrctValue"><i
                                                             class="fas fa-filter "></i></label>
@@ -51,9 +51,9 @@
                                                         id="filterSelectProjrctValue" aria-label="Filter Select">
                                                         <option value="précédent">Rabat</option>
                                                         <option value="précédent">casablanca</option>
-                                                        <option value="précédent">Tanger</option>
+                                                        <option value="précédent">Tanger - ibn marhal</option>
                                                     </select>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="col-4">
                                                 <div class="p-0">
@@ -79,10 +79,11 @@
                                                     <th>Nom de mission</th>
                                                     <th>Lieu</th>
                                                     <th>Durée</th>
-                                                    <th>Date de départ <span class=" mx-2" style="cursor: pointer;"> <i
-                                                                class="fa-solid fa-sort"></i></span>
+                                                    <th>Date de départ
+                                                        <!-- <span class=" mx-2" style="cursor: pointer;"> <i
+                                                                class="fa-solid fa-sort"></i></span> -->
                                                     </th>
-                                                    <th class="text-center">Actions</th>
+                                                    <th class="text-center">État</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -97,10 +98,6 @@
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
                                                         </a>
-                                                        <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                                class="fa-solid fa-pen-to-square"></i></a>
-                                                        <button type="button" class="btn btn-sm btn-danger"><i
-                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -114,10 +111,6 @@
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
                                                         </a>
-                                                        <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                                class="fa-solid fa-pen-to-square"></i></a>
-                                                        <button type="button" class="btn btn-sm btn-danger"><i
-                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -131,10 +124,6 @@
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
                                                         </a>
-                                                        <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                                class="fa-solid fa-pen-to-square"></i></a>
-                                                        <button type="button" class="btn btn-sm btn-danger"><i
-                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -148,10 +137,6 @@
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
                                                         </a>
-                                                        <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                                class="fa-solid fa-pen-to-square"></i></a>
-                                                        <button type="button" class="btn btn-sm btn-danger"><i
-                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                             </tbody>
