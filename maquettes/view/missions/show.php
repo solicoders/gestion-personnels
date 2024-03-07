@@ -71,18 +71,14 @@
                                                             <div class="d-flex justify-content-start">
                                                                 <div class=" p-0">
                                                                     <div class="input-group input-group-sm">
-                                                                        <input type="date" name="table_search"
-                                                                            class="form-control"
-                                                                            placeholder="Recherche">
-                                                                        <input type="date" name="table_search"
-                                                                            class="form-control"
-                                                                            placeholder="Recherche">
                                                                         <div class="input-group-append">
                                                                             <button type="submit"
                                                                                 class="btn btn-default">
-                                                                                <i class="fas fa-search"></i>
+                                                                                <i class="fa-solid fa-calendar"></i>
                                                                             </button>
                                                                         </div>
+                                                                        <input type="text" name="daterange"
+                                                                            value="07/03/2024 - 12/03/2024" />
                                                                     </div>
                                                                 </div>
                                                             </div>
