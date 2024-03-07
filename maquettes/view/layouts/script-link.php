@@ -5,7 +5,7 @@
 <script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
-$.widget.bridge('uibutton', $.ui.button)
+    $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
 <script src="../../node_modules/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -39,3 +39,10 @@ $.widget.bridge('uibutton', $.ui.button)
 
 <!-- Include CKEditor 5 CDN -->
 <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+<!-- script pa -->
+<script src="/view/assets/js/app.js"></script>
+<script src="/view/assets/js/absences.js"></script>
+<script src="/view/assets/js/categories.js"></script>
+<script src="/view/assets/js/conges.js"></script>
+<script src="/view/assets/js/missions.js"></script>
+<script src="/view/assets/js/personnels.js"></script>

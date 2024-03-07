@@ -8,6 +8,11 @@
 
     <!-- get app.css -->
     <link rel="stylesheet" href="/view/assets/css/app.css">
+    <link rel="stylesheet" href="/view/assets/css/absences.css">
+    <link rel="stylesheet" href="/view/assets/css/categories.css">
+    <link rel="stylesheet" href="/view/assets/css/conges.css">
+    <link rel="stylesheet" href="/view/assets/css/missions.css">
+    <link rel="stylesheet" href="/view/assets/css/personnels.css">
     <!-- tinymce  -->
     <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
