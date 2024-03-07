@@ -43,6 +43,28 @@
                                     <div class="card-header col-md-12">
                                         <div class="row justify-content-between">
                                             <div class="col-4">
+                                                <div class="">
+                                                    <div class=" p-0">
+                                                        <div class="input-group input-group-sm">
+                                                            <div class="input-group-append">
+                                                                <button type="submit" class="btn btn-default">
+                                                                    <i class="fa-solid fa-calendar-week"></i>
+                                                                </button>
+                                                            </div>
+                                                            <select class="form-control select-moyens-de-transport">
+                                                                <option value="missions-actuelles"
+                                                                    class="missions-actuelles">Missions actuelles
+                                                                </option>
+                                                                <option value="missions-precedentes"
+                                                                    class="missions-precedentes">Missions précédentes
+                                                                </option>
+                                                                <option value="prochaines-missions"
+                                                                    class="prochaines-missions">Prochaines missions
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="col-4">
                                                 <div class="d-flex justify-content-end">
@@ -75,6 +97,7 @@
                                                         <!-- <span class=" mx-2" style="cursor: pointer;"> <i
                                                                 class="fa-solid fa-sort"></i></span> -->
                                                     </th>
+                                                    <th>Attestation</th>
                                                     <th class="text-center">État</th>
                                                 </tr>
                                             </thead>
@@ -86,6 +109,9 @@
                                                     <td>Rabat</td>
                                                     <td>2</td>
                                                     <td>2024-03-01</td>
+                                                    <td class="text-center"><a href="./attestation.php"
+                                                            class="btn btn-default btn-sm"><i
+                                                                class="fa-regular fa-file"></i></a></td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -99,6 +125,9 @@
                                                     <td>casablanca</td>
                                                     <td>5</td>
                                                     <td>2024-02-05</td>
+                                                    <td class="text-center"><a href="./attestation.php"
+                                                            class="btn btn-default btn-sm"><i
+                                                                class="fa-regular fa-file"></i></a></td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -112,6 +141,9 @@
                                                     <td>Casablanca</td>
                                                     <td>5</td>
                                                     <td>2024-01-17</td>
+                                                    <td class="text-center"><a href="./attestation.php"
+                                                            class="btn btn-default btn-sm"><i
+                                                                class="fa-regular fa-file"></i></a></td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -125,6 +157,9 @@
                                                     <td>Tanger</td>
                                                     <td>3</td>
                                                     <td>2023-12-09</td>
+                                                    <td class="text-center"><a href="./attestation.php"
+                                                            class="btn btn-default btn-sm"><i
+                                                                class="fa-regular fa-file"></i></a></td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -140,7 +175,8 @@
                                             <button type="button" class="btn btn-default btn-sm">
                                                 <i class="fa-solid fa-file-arrow-down"></i>
                                                 IMPORTER</button>
-                                            <button type="button" class="btn btn-default btn-sm ">
+                                            <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
+                                                class="btn  btn-default btn-sm mt-0 mx-2">
                                                 <i class="fa-solid fa-file-export"></i>
                                                 EXPORTER</button>
                                         </div>
@@ -165,6 +201,42 @@
                     </div>
                 </section>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Exporte des missions</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="mission-actuel">
+                                <label class="form-check-label" for="mission-actuel">missions actuelles</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="mission-precedente">
+                                <label class="form-check-label" for="mission-precedente">missions précédentes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="prochaines-missions">
+                                <label class="form-check-label" for="prochaines-missions">prochaines missions</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Fermer</button>
+                            <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
+                                class="btn  btn-default btn-sm mt-0 mx-2">
+                                <i class="fa-solid fa-file-export"></i>
+                                EXPORTER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <!-- Inclure le pied de page -->
             <?php include_once "../layouts/footer.php" ?>

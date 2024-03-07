@@ -70,22 +70,24 @@
                                             <div class="card card-purple card-outline">
                                                 <div class="card-header col-md-12">
                                                     <div class="row justify-content-between">
-                                                        <div class="col-4">
-                                                            <div class="input-group input-group-sm">
-                                                                <div class="input-group-append">
-                                                                    <button type="submit" class="btn btn-default">
-                                                                        <i class="fas fa-filter "></i>
-                                                                    </button>
+                                                        <div class="col-6">
+                                                            <div class="d-flex justify-content-start">
+                                                                <div class=" p-0">
+                                                                    <div class="input-group input-group-sm">
+                                                                        <input type="date" name="table_search"
+                                                                            class="form-control"
+                                                                            placeholder="Recherche">
+                                                                        <input type="date" name="table_search"
+                                                                            class="form-control"
+                                                                            placeholder="Recherche">
+                                                                        <div class="input-group-append">
+                                                                            <button type="submit"
+                                                                                class="btn btn-default">
+                                                                                <i class="fas fa-search"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                                <select class="form-select form-control"
-                                                                    id="filterSelectProjrctValue"
-                                                                    aria-label="Filter Select">
-                                                                    <option value="précédent">Rabat</option>
-                                                                    <option value="précédent">casablanca</option>
-                                                                    <option value="précédent">Tanger - ibn marhal
-                                                                    </option>
-                                                                </select>
-
                                                             </div>
                                                         </div>
                                                         <div class="col-4">
@@ -127,21 +129,19 @@
                                                                 <td>Voyage d'affaires</td>
                                                                 <td>Rabat</td>
                                                                 <td class="text-center">5</td>
-                                                                <td>14/03/2024</td>
-                                                                <td claxss="text-center">
+                                                                <td>14/02/2024</td>
+                                                                <td class="text-center">
                                                                     <a href="./show.php" class='btn btn-default btn-sm'>
                                                                         <i class="far fa-eye"></i>
                                                                     </a>
-                                                                    <a href="./edit.php"
-                                                                        class="btn btn-sm btn-default"><i
-                                                                            class="fa-solid fa-pen-to-square"></i>
+                                                                    <a href="./edit.php" class="btn btn-sm btn-default">
+                                                                        <i class="fa-solid fa-pen-to-square"></i>
                                                                     </a>
-                                                                    <button type="button"
-                                                                        class="btn btn-sm btn-danger"><i
-                                                                            class="fa-solid fa-trash"></i></button>
+                                                                    <button type="button" class="btn btn-sm btn-danger">
+                                                                        <i class="fa-solid fa-trash"></i>
+                                                                    </button>
                                                                 </td>
                                                             </tr>
-
                                                             <tr>
                                                                 <td>203</td>
                                                                 <td>Business Trip</td>
