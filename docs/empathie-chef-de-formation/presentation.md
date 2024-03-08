@@ -2,6 +2,6 @@
 layout: presentation
 ---
 
-{% if page.empathy %}
+{% if page.empathie %}
   {% include {{ page.empathie }} %}
 {% endif %}
