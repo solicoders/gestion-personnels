@@ -13,11 +13,7 @@
         <?php include_once "../../view/layouts/aside.php" ?>
 
 
-        <div class="content-wrapper pt-4" style="min-height: 1302.4px;">
-
-            <div class="content-header">
-
-            </div>
+        <div class="content-wrapper pt-5" style="min-height: 1302.4px;">
 
             <section class="content">
                 <div class="container-fluid">
