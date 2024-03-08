@@ -41,32 +41,21 @@ include_once "../../view/layouts/heade.php"
                                 <div class="card-header col-md-12">
                                     <div class="d-flex justify-content-between">
                                         <div class="d-md-flex">
-                                            <div class="dropdown input-group">
-                                                <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                    Établissement
-                                                </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#">Solicode</a>
-                                                    <a class="dropdown-item" href="#">NTIC</a>
-                                                    <a class="dropdown-item" href="#">Ibn Marhal</a>
-                                                </div>
-                                            </div>
-
+                                            <select class="form-select form-control" id="filterSelectProjrctValue" aria-label="Filter Select">
+                                                <option value="précédent">Établissement</option>
+                                                <option value="précédent">Solicode</option>
+                                                <option value="précédent">NTIC</option>
+                                                <option value="précédent">Ibn Marhal</option>
+                                            </select>
                                             <!--  -->
-                                            <div class="dropdown input-group">
-                                                <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                    Motif
-                                                </button>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item" href="#">Congés</a>
-                                                    <a class="dropdown-item" href="#">Vacances</a>
-                                                    <a class="dropdown-item" href="#">Mission</a>
-                                                    <a class="dropdown-item" href="#">Malade</a>
-                                                    <a class="dropdown-item" href="#">Sans raison</a>
-                                                </div>
-                                            </div>
+                                            <select class="form-select form-control" id="filterSelectProjrctValue" aria-label="Filter Select">
+                                                <option value="précédent">Motif</option>
+                                                <option value="précédent">Congés</option>
+                                                <option value="précédent">Vacances</option>
+                                                <option value="précédent">Mission</option>
+                                                <option value="précédent">Malade</option>
+                                                <option value="précédent">Non justifier</option>
+                                            </select>
 
                                         </div>
 
