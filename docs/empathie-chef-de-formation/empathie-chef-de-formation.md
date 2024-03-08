@@ -1,14 +1,16 @@
 ---
 layout: default
-empathie: Empathie de chef de formation
+empathie: Presentation empathie de chef de formation
 order: 4
 ---
 <!-- new slide -->
 # Empathie de chef de formation
 
-![empathie chef de formation](./empathie-chef-de-formation/imagres/empathie-chef-de-formation.PNG)
+![empathie chef de formation](./empathie-chef-de-formation/images/empathie-chef-de-formation.PNG)
 
 <!-- note -->
+![empathie chef de formation](./empathie-chef-de-formation/images/empathie.jpg)
+
 ## Persona
 
 Abdelmonaim HAMOUDA
@@ -25,10 +27,12 @@ Abdelmonaim HAMOUDA
 - J'utilise Google Sheets pour suivre les données de chaque employé.
 - J'utilise Microsoft Word pour remplir et imprimer les attestations de travail et les ordres de mission
 
+<!-- new slide -->
 ## Définir de problème 
 
 perdre beaucoup de temps à récupérer les données de chaque employé et à chercher des fichiers mal organisés.
 
+<!-- new slide -->
 ## Ideation
 
 Réaliser une application web pour gérer les employés et imprimer les fichiers nécessaires avec une récupération automatique des données.
