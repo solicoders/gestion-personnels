@@ -64,7 +64,6 @@
                                     <th>Date départ</th>
                                     <th>Date retour</th>
                                     <th class="text-center">Nombre de jours</th>
-                                    <th class="text-center">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -72,61 +71,26 @@
                                     <td>2024-02-28</td>
                                     <td>2024-03-2</td>
                                     <td class="text-center">5</td>
-                                    <td class="text-center">
-                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>2024-02-28</td>
                                     <td>2024-03-2</td>
                                     <td class="text-center">3</td>
-                                    <td class="text-center">
-                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>2024-02-28</td>
                                     <td>2024-03-2</td>
                                     <td class="text-center">7</td>
-                                    <td class="text-center">
-                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>2023-12-2</td>
                                     <td>2024-12-9</td>
                                     <td class="text-center">6</td>
-                                    <td class="text-center">
-                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>2023-7-12</td>
                                     <td>2023-12-19</td>
                                     <td class="text-center">5</td>
-                                    <td class="text-center">
-                                        <a href="./show.php" class='btn btn-default btn-sm'>
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                        <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                        <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                    </td>
                                 </tr>
                             </tbody>
                         </table>
