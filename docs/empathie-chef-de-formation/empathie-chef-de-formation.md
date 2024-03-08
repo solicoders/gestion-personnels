@@ -6,7 +6,7 @@ order: 4
 <!-- new slide -->
 # Empathie de chef de formation
 
-![empathie chef de formation](./empathie-chef-de-formation/images/empathie-chef-de-formation.PNG){:width="75%"}
+![empathie chef de formation](/gestion-personnels/empathie-chef-de-formation/images/empathie-chef-de-formation.PNG){:width="75%"}
 
 <!-- note -->
 ## Persona
@@ -27,12 +27,12 @@ Abdelmonaim HAMOUDA
 
 <!-- new slide -->
 ## Définir de problème 
-![empathie chef de formation](./empathie-chef-de-formation/images/problem.jpg){:width="75%"}
+![empathie chef de formation](/gestion-personnels/empathie-chef-de-formation/images/problem.jpg){:width="75%"}
 <!-- note -->
 perdre beaucoup de temps à récupérer les données de chaque employé et à chercher des fichiers mal organisés.
 
 <!-- new slide -->
 ## Ideation
-![empathie chef de formation](./empathie-chef-de-formation/images/ideation.jpg){:width="75%"}
+![empathie chef de formation](/gestion-personnels/empathie-chef-de-formation/images/ideation.jpg){:width="75%"}
 <!-- note -->
 Réaliser une application web pour gérer les employés et imprimer les fichiers nécessaires avec une récupération automatique des données.
