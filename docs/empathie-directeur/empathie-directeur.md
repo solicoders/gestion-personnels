@@ -4,14 +4,19 @@ empathy: empathie-directeur
 order: 6
 ---
 
+<!-- 
+## Empathie avec Directeur
+
+![Empathy](./images/card-empathy.png){:width="85%"}*figure: Empathie avec Directeur* -->
+
+
+
 
 ## Empathie avec Directeur
 
 ![Empathy](./images/card-empathy.png){:width="85%"}*figure: Empathie avec Directeur*
 
-
 <!-- note -->
-
 
 Date : 05-01-2024
 

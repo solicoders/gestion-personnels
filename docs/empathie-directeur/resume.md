@@ -10,9 +10,11 @@ order: 3
 ![Empathy](./images/card-empathy.png){:width="85%"}*figure: Empathie avec Directeur*
 
 
-<!-- new slide -->
+<!-- note -->
 
 ## Livrable 
 
-### Lien de Rapport
-- [Rapport empathie-directeur](/lab-poo/empathie-directeur/rapport.html)
+- [Rapport empathie-directeur](/empathie-directeur/rapport.html)
+
+
+<!-- new slide -->
