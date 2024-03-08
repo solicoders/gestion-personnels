@@ -14,7 +14,7 @@ order: 3
 
 ## Livrable 
 
-- [Rapport empathie-directeur](/empathie-directeur/rapport.html)
+- [Rapport empathie-directeur](/gestion-personnels/empathie-directeur/rapport.html)
 
 
 <!-- new slide -->
