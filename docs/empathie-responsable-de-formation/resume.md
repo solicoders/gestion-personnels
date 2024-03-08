@@ -14,5 +14,5 @@ Prenant l'initiative de comprendre les besoins du chef de formation concernant l
 ## Lien de Rapport
 [Rapport d'empathie de chef de formation](/gestion-personnels/empathie-responsable-de-formation/rapport.html)
 
-## Lien de Rapport
+## Lien de présentation
 [Présentation d'empathie de chef de formation](/gestion-personnels/empathie-responsable-de-formation/presentation.html)
