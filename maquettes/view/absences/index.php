@@ -39,33 +39,37 @@ include_once "../../view/layouts/heade.php"
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header col-md-12">
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-md-flex">
-                                            <select class="form-select form-control" id="filterSelectProjrctValue" aria-label="Filter Select">
-                                                <option value="précédent">Établissement</option>
-                                                <option value="précédent">Solicode</option>
-                                                <option value="précédent">NTIC</option>
-                                                <option value="précédent">Ibn Marhal</option>
-                                            </select>
-                                            <!--  -->
-                                            <select class="form-select form-control" id="filterSelectProjrctValue" aria-label="Filter Select">
-                                                <option value="précédent">Motif</option>
-                                                <option value="précédent">Congés</option>
-                                                <option value="précédent">Vacances</option>
-                                                <option value="précédent">Mission</option>
-                                                <option value="précédent">Malade</option>
-                                                <option value="précédent">Non justifier</option>
-                                            </select>
-
-                                        </div>
-
-                                        <div class=" p-0">
-                                            <div class="input-group input-group-sm">
-                                                <input type="text" name="table_search" class="form-control" placeholder="Recherche">
+                                    <div class="row justify-content-between">
+                                        <div class="">
+                                            <div class="input-group input-group">
                                                 <div class="input-group-append">
                                                     <button type="submit" class="btn btn-default">
-                                                        <i class="fas fa-search"></i>
+                                                        <i class="fas fa-filter "></i>
                                                     </button>
+                                                </div>
+                                                <select class="form-select form-control" id="filterSelectProjrctValue" aria-label="Filter Select">
+                                                    <option value="précédent">Motif</option>
+                                                    <option value="précédent">Congés</option>
+                                                    <option value="précédent">Vacances</option>
+                                                    <option value="précédent">Mission</option>
+                                                    <option value="précédent">Malade</option>
+                                                    <option value="précédent">Non justifier</option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-end">
+
+                                                <div class=" p-0">
+                                                    <div class="input-group input-group">
+                                                        <input type="text" name="table_search" class="form-control" placeholder="Recherche">
+                                                        <div class="input-group-append">
+                                                            <button type="submit" class="btn btn-default">
+                                                                <i class="fas fa-search"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -84,6 +88,9 @@ include_once "../../view/layouts/heade.php"
                                             <button type="button" class="btn btn-default btn-sm mt-0 mx-2">
                                                 <i class="fa-solid fa-file-export"></i>
                                                 EXPORTER</button>
+                                            <a href="./document-absenteisme.php" type="button" class="btn btn-default bg-purple btn-sm mt-0 mx-2">
+                                                <i class="fa-solid fa-print"></i>
+                                                IMPRIMER</a>
                                         </div>
                                         <div class="">
                                             <ul class="pagination  m-0 float-right">
@@ -93,16 +100,6 @@ include_once "../../view/layouts/heade.php"
                                                 <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
                                                 <li class="page-item"><a class="page-link text-secondary" href="#">»</a></li>
                                             </ul>
-                                        </div>
-                                    </div>
-                                    <div class="">
-                                        <!-- impriment -->
-                                        <div class="d-flex justify-content-end row">
-                                            <div class="col-md-2 d-flex align-items-center input-groupe">
-                                                <a href="./document-absenteisme.php" class="btn  bg-purple py-2 btn-sm w-100">
-                                                    <i class="fa-solid fa-print"></i>
-                                                    IMPRIMER</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
