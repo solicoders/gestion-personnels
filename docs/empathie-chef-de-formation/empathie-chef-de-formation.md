@@ -1,19 +1,25 @@
 ---
 layout: default
-emapthie: Empathie de chef de formation
-order: 2
+empathie: Empathie de chef de formation
+order: 4
 ---
 
-# Empathie chef de formation
+# Empathie de chef de formation
 
-Prenant l'initiative de comprendre les besoins du chef de formation concernant l'application de gestion du personnel, et essayant de comprendre les solutions qu'il propose.
-![empathie](./empathie-chef-de-formation/images/empathie.jpg){:width="500px"}
-*figure: empathie*
+![empathie chef de formation](./empathie-chef-de-formation/imagres/empathie-chef-de-formation.PNG)
 
+## Persona
 
-## Lien de Présentation
-[Présentation d'empathie de chef de formation](./empathie-chef-de-formation/presentation.html)
+Abdelmonaim HAMOUDA
 
-## Lien de Rapport
-[Rapport d'empathie de chef de formation](./empathie-chef-de-formation/rapport.html)
+## Ce qu'il dit : 
 
+- Les enseignants partent en mission et ils ont besoin d'un ordre de mission.
+- Je transmets la liste des absents des employés du centre chaque mois.
+- J'imprime les attestations de travail
+- J'imprime l'ordre de mission.
+
+## Ce qu’il fait :
+
+- J'utilise Google Sheets pour suivre les données de chaque employé.
+- J'utilise Microsoft Word pour remplir et imprimer les attestations de travail et les ordres de mission
