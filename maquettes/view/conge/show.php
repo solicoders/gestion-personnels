@@ -41,16 +41,16 @@
                                             src="../assets/images/user.png" alt="User profile picture">
                                     </div>
                                     <h3 class="profile-username text-center">Mohamed Ali</h3>
-                                    <p class="text-muted text-center">143322</p>
+                                    <p class="text-muted text-center">Formateur</p>
                                     <ul class="list-group list-group-unbordered mb-3">
                                         <li class="list-group-item">
-                                            <b>Fonction</b> <a class="float-right text-purple">Developper</a>
+                                            <b>Matricule</b> <a class="float-right text-purple">1243566</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <b>Phone</b> <a class="float-right text-purple">+212798763543</a>
+                                            <b>Etablissement</b> <a class="float-right text-purple">Solicode</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <b>Type</b> <a class="float-right text-purple">Directeur</a>
+                                            <b>Jours restant</b> <a class="float-right text-purple">6</a>
                                         </li>
                                     </ul>
                                     <a href="/view/personnels/show.php" class="btn bg-purple btn-block"
