@@ -1,6 +1,7 @@
 # Build settings
 baseurl: "/gestion-personnels"
 
+
 # lsi: false
 # safe: true
 # incremental: false
