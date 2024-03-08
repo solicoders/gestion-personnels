@@ -215,15 +215,15 @@
                         <div class="modal-body">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="mission-actuel">
-                                <label class="form-check-label" for="mission-actuel">missions actuelles</label>
+                                <label class="form-check-label" for="mission-actuel">Missions actuelles</label>
                             </div>
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="mission-precedente">
-                                <label class="form-check-label" for="mission-precedente">missions précédentes</label>
+                                <label class="form-check-label" for="mission-precedente">Missions précédentes</label>
                             </div>
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="prochaines-missions">
-                                <label class="form-check-label" for="prochaines-missions">prochaines missions</label>
+                                <label class="form-check-label" for="prochaines-missions">Prochaines missions</label>
                             </div>
                         </div>
                         <div class="modal-footer">
