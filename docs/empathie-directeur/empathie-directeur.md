@@ -14,7 +14,6 @@ order: 6
 
 Une séance d'empathie a été réalisée avec M. Mechrafi, en tant que directeur, le 29 Février 2024.
 
-
 ## Persona
 (M. Mechrafi)
 
