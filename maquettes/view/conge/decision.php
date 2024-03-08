@@ -37,7 +37,7 @@
                 </div>
                 <section class="content px-4 mx-4 card">
                     <div class=" d-flex justify-content-center">
-                        <img src="../assets/images/logo-ofppt.jpeg" alt="" height="130px" width="auth">
+                        <img src="../assets/images/logo-ofppt.png" alt="" height="130px" width="auth">
                     </div>
                     <div class="d-flex justify-content-between mt-3">
                         <p>REF: OFP/DRTTA/CFP1/SOLICODE/N 38/22</p>
