@@ -16,6 +16,7 @@ Une séance d'empathie a été réalisée avec M. Mechrafi, en tant que directeu
 ## Livrable 
 
 - [Rapport empathie-directeur](/gestion-personnels/empathie-directeur/rapport.html)
+- [Presentation empathie-directeur](/gestion-personnels/empathie-directeur/presentation.html)
 
 
 <!-- new slide -->
