@@ -71,7 +71,7 @@
                                                 <div class="card-header col-md-12">
                                                     <div class="row justify-content-between">
                                                         <div class="col-4">
-                                                            <div class="input-group input-group">
+                                                            <div class="input-group input-group-sm">
                                                                 <div class="input-group-append">
                                                                     <button type="submit" class="btn btn-default">
                                                                         <i class="fas fa-filter "></i>
@@ -94,7 +94,7 @@
                                                             <div class="d-flex justify-content-end">
 
                                                                 <div class=" p-0">
-                                                                    <div class="input-group input-group">
+                                                                    <div class="input-group input-group-sm">
                                                                         <input type="text" name="table_search"
                                                                             class="form-control"
                                                                             placeholder="Recherche">
