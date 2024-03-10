@@ -19,7 +19,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Historique des congés</h1>
+                            <h1>Historique des absences</h1>
                         </div>
                         <div class="col-sm-6">
                             <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i class="fas fa-arrow-left"></i> Retoure</a>
@@ -122,8 +122,8 @@
                                                                 <th>Motif</th>
                                                                 <th>Date de début</th>
                                                                 <th>Date de fin</th>
-                                                                <th>Durée absence</th>
-                                                                <th>Action</th>
+                                                                <th class="text-center">Durée absence</th>
+                                                                <th class="text-center">Action</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
@@ -132,8 +132,8 @@
                                                                 <td>Ordre de mission</td>
                                                                 <td>20/02/2022</td>
                                                                 <td>25/02/2022</td>
-                                                                <td>5 jour</td>
-                                                                <td>
+                                                                <td class="text-center">5 jour</td>
+                                                                <td class="text-center">
                                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
                                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                                 </td>
@@ -143,8 +143,8 @@
                                                                 <td>Vacances</td>
                                                                 <td>21/02/2022</td>
                                                                 <td>25/02/2022</td>
-                                                                <td>4 jour</td>
-                                                                <td>
+                                                                <td class="text-center">4 jour</td>
+                                                                <td class="text-center">
                                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
                                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                                 </td>
@@ -154,8 +154,8 @@
                                                                 <td>Congé</td>
                                                                 <td>23/02/2022</td>
                                                                 <td>25/02/2022</td>
-                                                                <td>2 jour</td>
-                                                                <td>
+                                                                <td class="text-center">2 jour</td>
+                                                                <td class="text-center">
                                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
                                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                                 </td>
@@ -165,8 +165,8 @@
                                                                 <td>Malade</td>
                                                                 <td>25/02/2022</td>
                                                                 <td>27/02/2022</td>
-                                                                <td>2 jour</td>
-                                                                <td>
+                                                                <td class="text-center">2 jour</td>
+                                                                <td class="text-center">
                                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
                                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                                 </td>
@@ -176,8 +176,8 @@
                                                                 <td>Malade</td>
                                                                 <td>25/02/2022</td>
                                                                 <td>27/02/2022</td>
-                                                                <td>2 jour</td>
-                                                                <td>
+                                                                <td class="text-center">2 jour</td>
+                                                                <td class="text-center">
                                                                     <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
                                                                     <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
                                                                 </td>
