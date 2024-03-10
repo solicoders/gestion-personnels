@@ -40,8 +40,9 @@ include_once "../../view/layouts/heade.php"
                             <div class="card">
                                 <div class="card-header col-md-12">
                                     <div class="row justify-content-between">
-                                        <div class="">
-                                            <div class="input-group input-group">
+                                        <div class="row">
+                                            <!-- filter by motif -->
+                                            <div class="input-group-sm input-group ml-3">
                                                 <div class="input-group-append">
                                                     <button type="submit" class="btn btn-default">
                                                         <i class="fas fa-filter "></i>
@@ -55,14 +56,33 @@ include_once "../../view/layouts/heade.php"
                                                     <option value="précédent">Malade</option>
                                                     <option value="précédent">Non justifier</option>
                                                 </select>
-
                                             </div>
+                                            <!-- filter by start date / end date -->
+                                            <!-- <div class="col-md-8 row">
+                                                <div class="input-group-sm input-group col-md-6">
+                                                    <div class="input-group-append">
+                                                        <button type="submit" class="btn btn-default">
+                                                            <i class="fas fa-filter "></i>
+                                                        </button>
+                                                    </div>
+                                                    <input type="date" class="form-control" id="startDate" aria-label="Start Date">
+                                                </div>
+                                                <div class="input-group-sm input-group col-md-6">
+                                                    <div class="input-group-append">
+                                                        <button type="submit" class="btn btn-default">
+                                                            <i class="fas fa-filter "></i>
+                                                        </button>
+                                                    </div>
+                                                    <input type="date" class="form-control" id="endDate" aria-label="End Date">
+                                                </div>
+                                            </div> -->
+
                                         </div>
                                         <div class="col-4">
                                             <div class="d-flex justify-content-end">
 
-                                                <div class=" p-0">
-                                                    <div class="input-group input-group">
+                                                <div class="p-0">
+                                                    <div class="input-group-sm input-group">
                                                         <input type="text" name="table_search" class="form-control" placeholder="Recherche">
                                                         <div class="input-group-append">
                                                             <button type="submit" class="btn btn-default">
