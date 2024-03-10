@@ -69,31 +69,20 @@
                                                     <div class="row justify-content-between">
                                                         <!-- filter by start date / end date -->
                                                         <div class="col-md-9 row">
-                                                            <!-- start date -->
                                                             <div class="input-group-sm input-group col-md-4">
-                                                                <div class="input-group-prepend">
+                                                                <div class="input-group-append">
                                                                     <button type="submit" class="btn btn-default">
                                                                         <i class="fas fa-filter "></i>
                                                                     </button>
                                                                 </div>
-                                                                <input type="date" class="form-control" id="startDate" aria-label="Start Date">
+                                                                <select class="form-select form-control" id="filterSelectProjrctValue" aria-label="Filter Select">
+                                                                    <option value="précédent">anée</option>
+                                                                    <option value="précédent">2024</option>
+                                                                    <option value="précédent">2023</option>
+                                                                    <option value="précédent">2022</option>
+                                                                </select>
                                                             </div>
-                                                            <!-- end date -->
-                                                            <div class="input-group-sm input-group col-md-4">
-                                                                <div class="input-group-prepend">
-                                                                    <button type="submit" class="btn btn-default">
-                                                                        <i class="fas fa-filter "></i>
-                                                                    </button>
-                                                                </div>
-                                                                <input type="date" class="form-control" id="endDate" aria-label="End Date">
-                                                            </div>
-                                                            <!-- Filter Button -->
-                                                            <!-- <div class="col-md-4 input-group-sm">
-                                                                <button type="submit" class="btn btn-default">
-                                                                    Filter
-                                                                </button>
-                                                            </div> -->
-                                                        </div> 
+                                                        </div>
 
 
                                                         <div class="col-3">

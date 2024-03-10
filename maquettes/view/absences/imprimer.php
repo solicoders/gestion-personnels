@@ -43,7 +43,7 @@
                                             </div>
                                             <div class="card">
                                                 <div class="card-body table-responsive p-0">
-                                                    <table class="table table-striped text-nowrap table-print">
+                                                    <table class="table table-bordered text-nowrap table-print">
                                                         <thead>
                                                             <tr>
                                                                 <th>Matricule</th>

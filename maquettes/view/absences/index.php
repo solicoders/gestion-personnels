@@ -42,7 +42,7 @@ include_once "../../view/layouts/heade.php"
                                     <div class="row justify-content-between">
                                         <div class="row">
                                             <!-- filter by motif -->
-                                            <div class="input-group-sm input-group ml-3">
+                                            <div class="input-group-sm input-group col-md-4">
                                                 <div class="input-group-append">
                                                     <button type="submit" class="btn btn-default">
                                                         <i class="fas fa-filter "></i>
@@ -58,24 +58,19 @@ include_once "../../view/layouts/heade.php"
                                                 </select>
                                             </div>
                                             <!-- filter by start date / end date -->
-                                            <!-- <div class="col-md-8 row">
-                                                <div class="input-group-sm input-group col-md-6">
-                                                    <div class="input-group-append">
+                                            <div class="col-md-8 row">
+                                                <div class="input-group input-group-sm">
+                                                    <div class="input-group-prepend">
                                                         <button type="submit" class="btn btn-default">
-                                                            <i class="fas fa-filter "></i>
+                                                            <i class="fas fa-filter"></i>
                                                         </button>
                                                     </div>
+                                                    <label for="startDate" class="sr-only">Date debut</label>
                                                     <input type="date" class="form-control" id="startDate" aria-label="Start Date">
-                                                </div>
-                                                <div class="input-group-sm input-group col-md-6">
-                                                    <div class="input-group-append">
-                                                        <button type="submit" class="btn btn-default">
-                                                            <i class="fas fa-filter "></i>
-                                                        </button>
-                                                    </div>
+                                                    <label for="endDate" class="sr-only">Date fin</label>
                                                     <input type="date" class="form-control" id="endDate" aria-label="End Date">
                                                 </div>
-                                            </div> -->
+                                            </div>
 
                                         </div>
                                         <div class="col-4">
