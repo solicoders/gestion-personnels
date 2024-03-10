@@ -3,7 +3,7 @@
 
         <div class="form-group">
             <label for="exampleInputProject">Personnels</label>
-            <select name="project" class="form-control js-example-basic-single" id="exampleInputProject">
+            <select name="project" class="form-control personnel" id="personnel">
                 <option value="1">Lamchatab Amine</option>
                 <option value="2">Achaou Hamid</option>
                 <option value="3">Sarsri Imran</option>
