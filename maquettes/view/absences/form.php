@@ -45,7 +45,7 @@ $current_route = $_SERVER['REQUEST_URI'];
 
     <div class="card-footer">
         <a href="./index.php" class="btn btn-default">Annuler</a>
-        <button type="submit" class="btn <?php echo (strpos($current_route, 'edit') !== false) ? 'bg-teal' : 'btn-info'; ?>">Soumettre</button>
+        <button type="submit" class="btn <?php echo (strpos($current_route, 'edit') !== false) ? 'bg-teal' : 'btn-info'; ?>"><?php echo (strpos($current_route, 'edit') !== false) ? 'Modifier' : 'Ajouter'; ?></button>
     </div>
 
 </form>
