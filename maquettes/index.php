@@ -18,14 +18,16 @@
 
                 <form method="post">
                     <div class="input-group mb-3">
-                        <input type="email" name="email" value="directeur-generale@gmail.com" placeholder="Email" class="form-control" autofocus>
+                        <input type="email" name="email" value="directeur-generale@gmail.com" placeholder="Email"
+                            class="form-control" autofocus>
                         <div class="input-group-append">
                             <div class="input-group-text"><span class="fas fa-envelope"></span></div>
                         </div>
                     </div>
 
                     <div class="input-group mb-3">
-                        <input type="password" name="password" placeholder="Mot de passe" class="form-control" value="2382682332">
+                        <input type="password" name="password" placeholder="Mot de passe" class="form-control"
+                            value="2382682332">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>
@@ -34,16 +36,9 @@
 
                     </div>
 
-                    <div class="row">
-                        <div class="col-7">
-                            <div class="icheck-primary">
-                                <input type="checkbox" id="remember">
-                                <label for="remember">Se souvenir de moi</label>
-                            </div>
-                        </div>
-
-                        <div class="col-5">
-                            <a href="./view/home.php" type="submit" class="btn btn-info btn-block">connecter</a>
+                    <div class=" ">
+                        <div class="">
+                            <a href="./view/home.php" type="submit" class="btn btn-info btn-block">Connecter</a>
                         </div>
 
                     </div>

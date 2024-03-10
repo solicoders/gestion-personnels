@@ -10,7 +10,7 @@
         <?php include_once "./layouts/nav.php" ?>
         <!-- Barre latérale -->
         <?php include_once "./layouts/aside.php" ?>
-        
+
         <div class="content-wrapper pt-4">
             <div class="content-header">
                 <div class="container-fluid">
@@ -34,7 +34,7 @@
                                 <div class="icon">
                                     <i class="ion ion-bag"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i
+                                <a href="/view/personnels/index.php" class="small-box-footer">Plus d'informations <i
                                         class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
@@ -44,12 +44,12 @@
                             <div class="small-box bg-success">
                                 <div class="inner">
                                     <h3>13</h3>
-                                    <p>administrateurs</p>
+                                    <p>Administrateurs</p>
                                 </div>
                                 <div class="icon">
                                     <i class="ion ion-stats-bars"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i
+                                <a href="/view/personnels/index.php" class="small-box-footer">Plus d'informations <i
                                         class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
@@ -59,17 +59,17 @@
                             <div class="small-box bg-warning">
                                 <div class="inner">
                                     <h3>6</h3>
-                                    <p>congé actuel</p>
+                                    <p>Congé actuel</p>
                                 </div>
                                 <div class="icon">
                                     <i class="ion ion-pie-graph"></i>
                                 </div>
-                                <a href="view/cong/index.php" class="small-box-footer">More info <i
+                                <a href="/view/conge/index.php" class="small-box-footer">Plus d'informations <i
                                         class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
 
-                        
+
                         <div class="col-lg-3 col-6">
 
                             <div class="small-box bg-danger">
@@ -80,7 +80,7 @@
                                 <div class="icon">
                                     <i class="ion ion-person-add"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i
+                                <a href="/view/absences/index.php" class="small-box-footer">Plus d'informations <i
                                         class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
