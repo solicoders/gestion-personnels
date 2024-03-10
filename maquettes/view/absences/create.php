@@ -13,11 +13,7 @@
         <?php include_once "../../view/layouts/aside.php" ?>
 
 
-        <div class="content-wrapper pt-4" style="min-height: 1302.4px;">
-
-            <div class="content-header">
-
-            </div>
+        <div class="content-wrapper pt-5" style="min-height: 1302.4px;">
 
             <section class="content">
                 <div class="container-fluid">
@@ -26,7 +22,7 @@
 
                             <div class="card card-info">
                                 <div class="card-header">
-                                    <h2 class="card-title"> <i class="nav-icon fas fa-tasks"></i> Ajouter une absence
+                                    <h2 class="card-title"> <i class="fa-regular fa-calendar-minus mr-2"></i> Ajouter une absence
                                     </h2>
                                 </div>
                                 <!-- Inclusion du formulaire -->

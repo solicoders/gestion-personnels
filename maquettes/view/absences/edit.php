@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -20,9 +21,9 @@
                     <div class="row">
                         <div class="col-md-12">
 
-                            <div class="card card-info">
+                            <div class="card card-teal">
                                 <div class="card-header">
-                                    <h3 class="card-title"> <i class="nav-icon fas fa-tasks"></i> Modifier la absence
+                                    <h3 class="card-title"> <i class="fa-regular fa-calendar-minus mr-2"></i> Modifier la absence
                                     </h3>
                                 </div>
                                 <!-- Inclusion du formulaire -->
