@@ -1,1 +1,7 @@
 /* style to package missions */
+.transport-marque,
+.transport-numéro-de-plaque,
+.transport-puissance-fiscale {
+    display: none;
+    
+}
