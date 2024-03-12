@@ -19,9 +19,9 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="card card-info">
+                            <div class="card card-teal">
                                 <div class="card-header">
-                                    <h3 class="card-title"> <i class="nav-icon fas fa-table"></i> Modifier collaborateur
+                                    <h3 class="card-title"> <i class="fa-solid fa-users mr-2"></i> Modifier collaborateur
                                     </h3>
                                 </div>
                                     <!-- form -->
