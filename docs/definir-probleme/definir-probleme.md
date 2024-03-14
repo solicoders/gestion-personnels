@@ -1,7 +1,7 @@
 ---
 layout: default
 chapitre: definir-probleme
-order: 6
+order: 5
 ---
 
 # Définir de problème 
