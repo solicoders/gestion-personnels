@@ -19,11 +19,13 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Détail des Missions</h1>
+                            <h1>Attestation Ordre de Mission</h1>
                         </div>
                         <div class="col-sm-6">
-                            <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i
-                                    class="fas fa-arrow-left"></i> Retoure</a>
+                            <div class="float-sm-right">
+                                <button id="printButton" class="btn bg-purple"><i class="fa-solid fa-print"></i>
+                                    Imprimer</button>
+                            </div>
                         </div>
                     </div>
                 </div>
