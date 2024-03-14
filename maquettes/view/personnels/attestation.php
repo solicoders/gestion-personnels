@@ -94,11 +94,11 @@
                                 </p>
                             </div>
                             <div class="d-flex justify-content-between w-100">
-                                <h6 class="font-weight-bold">Direction Réglenal DRTTA CFP Tanger</h6>
-                                <h6 class="">ISTA NTIC Km 06, Route de Rabat Tanger Tel : 06 39 38 08 71</h6>
-                                <h6 class="">ISTA IBN MARHAL 5Rue Ibn Marhal, Place Mozart Tanger Tel : 0539 380871</h6>
-                                <h6 class="">Centre solicode Digitale Quartier Bni Ouryaghel Tanger</h6>
-                                <h6 class="">Centre National mohamed 6 des handicapés Tanger Souani Tanger</h6>
+                                <h6 class="font-weight-bold w-25 text-center">Direction Réglenal DRTTA CFP Tanger 1</h6>
+                                <h6 class="w-25 mr-4">ISTA NTIC Km 06, Route de Rabat Tanger <br><span>Tel : 06 39 38 08 71</span></h6>
+                                <h6 class="w-25">ISTA IBN MARHAL 5Rue Ibn Marhal, Place Mozart Tanger Tel : 0539 380871</h6>
+                                <h6 class="w-25 mx-4">Centre solicode Digitale Quartier Bni Ouryaghel Tanger</h6>
+                                <h6 class="w-25">Centre National mohamed 6 des handicapés Tanger Souani Tanger</h6>
                             </div>
                         </div>
                     </footer>
