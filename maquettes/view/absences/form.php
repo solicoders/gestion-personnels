@@ -1,9 +1,12 @@
+<?php
+$current_route = $_SERVER['REQUEST_URI'];
+?>
 <form>
     <div class="card-body">
 
         <div class="form-group">
             <label for="exampleInputProject">Personnels</label>
-            <select name="project" class="form-control" id="exampleInputProject">
+            <select name="project" class="form-control personnel" id="personnel">
                 <option value="1">Lamchatab Amine</option>
                 <option value="2">Achaou Hamid</option>
                 <option value="3">Sarsri Imran</option>
@@ -42,7 +45,7 @@
 
     <div class="card-footer">
         <a href="./index.php" class="btn btn-default">Annuler</a>
-        <button type="submit" class="btn btn-info">Soumettre</button>
+        <button type="submit" class="btn <?php echo (strpos($current_route, 'edit') !== false) ? 'bg-teal' : 'btn-info'; ?>"><?php echo (strpos($current_route, 'edit') !== false) ? 'Modifier' : 'Ajouter'; ?></button>
     </div>
 
 </form>

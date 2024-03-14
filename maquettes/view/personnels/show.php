@@ -5,7 +5,7 @@
 <?php include_once "../layouts/heade.php" ?>
 
 <style>
-    .nav-pills .active {
+    .info-personnel .active {
         background-color: #17a2b8 !important;
         border-color: #17a2b8 !important;
     }
@@ -27,7 +27,7 @@
                             <h1>Plus d'une formation</h1>
                         </div>
                         <div class="col-sm-6">
-                            <a href="./modifier.php" class="btn btn-default float-right"><i class="far fa-edit"></i> Modifier</a>
+                            <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i class="fa-solid fa-arrow-left"></i> Retoure</a>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                     <div class="row">
                         <div class="col-md-3">
 
-                            <div class="card card-info card-outline">
+                            <div class="card card-purple card-outline">
                                 <div class="card-body box-profile">
                                     <div class="text-center">
                                         <img class="profile-user-img img-fluid img-circle" src="../assets/images/user.png" alt="Photo de profil">
@@ -48,17 +48,23 @@
                                     <ul class="list-group list-group-unbordered ">
                                         <li class="list-group-item">
                                             <b>Établissement</b>
-                                            <h6 class="float-right text-primary">Solicode</h6>
+                                            <h6 class="float-right text-purple">Solicode</h6>
                                         </li>
                                         <li class="list-group-item">
                                             <b>Fonction</b>
-                                            <h6 class="float-right text-primary">développement</h6>
+                                            <h6 class="float-right text-purple">développement</h6>
                                         </li>
                                         <li class="list-group-item">
                                             <b>Type :</b>
-                                            <h6 class="float-right text-primary">Formateur</h6>
+                                            <h6 class="float-right text-purple">Formateur</h6>
                                         </li>
                                     </ul>
+
+                                    <div class="row pt-1">
+                                        <a href="/view/conge/show.php" class="btn btn-default btn-block col-md-4 mt-2"><i class="fa-solid fa-bars-staggered mr-2"></i></a>
+                                        <a href="/view/absences/show.php" class="btn btn-default btn-block col-md-4 mt-2"><i class="fa-regular fa-calendar-minus mr-2"></i></a>
+                                        <a href="/view/missions/show.php" class="btn btn-default btn-block col-md-4 mt-2"><i class="fa-solid fa-business-time mr-2"></i></a>
+                                    </div>
                                 </div>
 
                             </div>
@@ -66,12 +72,12 @@
                         </div>
 
                         <div class="col-md-9">
-                            <div class="card">
+                            <div class="card card-purple card-outline">
                                 <div class="card-header p-2">
-                                    <ul class="nav nav-pills">
+                                    <ul class="nav nav-pills info-personnel">
                                         <li class="nav-item"><a class="nav-link active" href="#personnelles" data-toggle="tab">Personnelles</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#contact" data-toggle="tab">Contact</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#professionnelles" data-toggle="tab">Professionnelles</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#contact" data-toggle="tab">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="card-body">
@@ -115,6 +121,7 @@
                                                 <label for="nom">Date de naissance :</label>
                                                 <p>02/03/1980</p>
                                             </div>
+
                                         </div>
 
                                         <!-- Contact -->
@@ -166,6 +173,7 @@
                                                 <label for="nom">Type :</label>
                                                 <p>Formateur</p>
                                             </div>
+
                                         </div>
 
                                     </div>

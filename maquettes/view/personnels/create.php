@@ -16,11 +16,11 @@
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 pt-4">
 
                             <div class="card card-info">
                                 <div class="card-header">
-                                    <h3 class="card-title"> <i class="nav-icon fas fa-table"></i> Ajouter un collaborateur</h3>
+                                    <h3 class="card-title"> <i class="fa-solid fa-users mr-2"></i> Ajouter un collaborateur</h3>
                                 </div>
                                 <!-- Obtenir le formulaire -->
                                 <?php include_once "./form.php" ?>

@@ -38,9 +38,12 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-12">
+                                            <div class="w-100 d-flex justify-content-end">
+                                                <p>le 01/01/2023 à 01/04/2023</p>
+                                            </div>
                                             <div class="card">
                                                 <div class="card-body table-responsive p-0">
-                                                    <table class="table table-striped text-nowrap table-print">
+                                                    <table class="table table-bordered text-nowrap table-print">
                                                         <thead>
                                                             <tr>
                                                                 <th>Matricule</th>
@@ -54,21 +57,12 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td>12345</td>
-                                                                <td>Madani</td>
-                                                                <td>Ali</td>
-                                                                <td>Ordre de mission</td>
-                                                                <td>02/02/2023</td>
-                                                                <td>02/02/2023</td>
-                                                                <td class="text-center">5 jours</td>
-                                                            </tr>
-                                                            <tr>
                                                                 <td>24517</td>
                                                                 <td>Alami</td>
                                                                 <td>Amine</td>
                                                                 <td>Vacances</td>
-                                                                <td>02/02/2023</td>
-                                                                <td>02/03/2023</td>
+                                                                <td>11/03/2023</td>
+                                                                <td>15/03/2023</td>
                                                                 <td class="text-center">4 jours</td>
                                                             </tr>
                                                             <tr>
@@ -76,27 +70,36 @@
                                                                 <td>Chami</td>
                                                                 <td>Mohammed</td>
                                                                 <td>Congé</td>
-                                                                <td>02/02/2023</td>
                                                                 <td>02/03/2023</td>
-                                                                <td class="text-center">2 jours</td>
+                                                                <td>11/03/2023</td>
+                                                                <td class="text-center">7 jours</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>4781</td>
+                                                                <td>478122</td>
                                                                 <td>Sarsri</td>
                                                                 <td>Imrane</td>
                                                                 <td>Malade</td>
-                                                                <td>02/02/2023</td>
-                                                                <td>02/02/2023</td>
+                                                                <td>10/02/2023</td>
+                                                                <td>12/02/2023</td>
                                                                 <td class="text-center">2 jours</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>32651</td>
+                                                                <td>326523</td>
                                                                 <td>Alami</td>
                                                                 <td>Yahya</td>
                                                                 <td>Malade</td>
-                                                                <td>02/03/2023</td>
                                                                 <td>02/02/2023</td>
+                                                                <td>04/02/2023</td>
                                                                 <td class="text-center">2 jours</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>12345</td>
+                                                                <td>Madani</td>
+                                                                <td>Ali</td>
+                                                                <td>Ordre de mission</td>
+                                                                <td>22/01/2023</td>
+                                                                <td>29/01/2023</td>
+                                                                <td class="text-center">5 jours</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>

@@ -1,28 +1,34 @@
-<form action="process_form.php" method="POST">
+<form method="POST">
     <div class="card-body">
 
         <div class="card-body">
             <div class="form-group">
-                <label for="exampleInputProject">Colaborateur : <span class="text-danger">*</span></label>
-                <select name="project" class="form-control" id="exampleInputProject">
+                <label for="exampleInputProject">personnel : <span class="text-danger">*</span></label>
+                <select name="project" class="form-control js-example-basic-single" id="exampleInputProject">
                     <option value="projet1">Mohamed alami</option>
                     <option value="projet2">ahmed Alami</option>
                     <option value="projet3">jalil alami</option>
-                    <option value="projet3">imran lmadani</option>
+                    <option value="projet4">imran lmadani</option>
                 </select>
             </div>
 
             <div class="row">
-                <div class="px-2 py-2 col-md-6">
-                    <div class="form-group">
-                        <label for="Jours-restants">Nombre du Jours restants :</label>
-                        <h3 name="Jours-restants" class="form-control" id="Jours-restants">23</h3>
+                <div class="col-md-6">
+                    <div class="callout callout-success bg-light">
+                        <div class="d-flex">
+                            <label for="Jours-restants">Nombre du Jours restants :</label>
+                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 18</h5>
+                            <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="22 - Nombre de jours = 23 & cliquez pour plus de détails"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
+                        </div>
                     </div>
                 </div>
-                <div class="px-2 py-2 col-md-6">
-                    <div class="form-group">
-                        <label for="Jours-restants">Nombre du Jours possible :</label>
-                        <h3 name="Jours-restants" class="form-control" id="Jours-restants">29</h3>
+                <div class="col-md-6">
+                    <div class="callout callout-warning bg-light">
+                        <div class="d-flex">
+                            <label for="Jours-possibles">Nombre du Jours possible :</label>
+                            <h5 name="Jours-possibles" class="pl-3" id="Jours-possibles"> 24</h5>
+                            <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="Nombre du Jours possible = 6 + Nombre du Jours restants"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -41,6 +47,7 @@
 
         <div class="card-footer w-100 d-flex justify-content-end">
             <a href="./index.php" class="btn btn-default mr-2">Annuler</a>
-            <button type="submit" class="btn btn-info">Ajouter</button>
+            <button type="submit" class="btn <?php echo (strpos($current_route, 'edit') !== false) ? 'bg-teal' : 'btn-info' ?>"><?php echo (strpos($current_route, 'edit') !== false) ? 'Modifier' : 'Ajouter'; ?></button>
         </div>
+    </div>
 </form>
