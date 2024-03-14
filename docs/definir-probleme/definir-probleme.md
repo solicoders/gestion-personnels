@@ -4,7 +4,7 @@ chapitre: definir-probleme
 order: 5
 ---
 
-# Définir de problème 
+## Définir de problème 
 
 ![Définir le problème](./images/problem.jpg){:width="700px"}*figure: Définir le problème*
 
