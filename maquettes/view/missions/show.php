@@ -33,7 +33,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12 col-lg-4 col-xl-3">
-                            <div class="card card-teal card-outline">
+                            <div class="card card-purple card-outline">
                                 <div class="card-body box-profile">
                                     <div class="text-center">
                                         <img class="profile-user-img img-fluid img-circle"
@@ -43,16 +43,16 @@
                                     <p class="text-muted text-center">143322</p>
                                     <ul class="list-group list-group-unbordered mb-3">
                                         <li class="list-group-item">
-                                            <b>Fonction</b> <a class="float-right text-teal">Developper</a>
+                                            <b>Fonction</b> <a class="float-right text-purple">Developper</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <b>Phone</b> <a class="float-right text-teal">+212798763543</a>
+                                            <b>Phone</b> <a class="float-right text-purple">+212798763543</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <b>Type</b> <a class="float-right text-teal">Directeur</a>
+                                            <b>Type</b> <a class="float-right text-purple">Directeur</a>
                                         </li>
                                     </ul>
-                                    <a href="/view/personnels/more-info.php" class="btn bg-teal btn-block"
+                                    <a href="/view/personnels/more-info.php" class="btn bg-purple btn-block"
                                         style="margin-top: 2rem"><b>Plus
                                             d'informations</b></a>
                                 </div>
@@ -64,7 +64,7 @@
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-12">
-                                            <div class="card card-teal card-outline">
+                                            <div class="card card-purple card-outline">
                                                 <div class="card-header col-md-12">
                                                     <div class="row justify-content-between">
                                                         <div class="col-6">
