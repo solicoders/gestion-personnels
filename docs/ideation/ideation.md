@@ -4,13 +4,12 @@ chapitre: ideation
 order: 6
 ---
 
-# ideation 
+## Idéation
 
-
-![ideation](./images/ideation.jpg){:width="700px"}*figure: ideation*
+![Idéation](./images/ideation.jpg){:width="700px"}*figure: Ideation*
 
 <!-- note -->
 
-Le directeur de l'établissement passe énormément de temps à gérer les données des employés dans des feuilles Excel, ce qui entraîne des retards dans la prise de décisions critiques et limite la productivité globale de l'équipe en raison de la lenteur du traitement des informations, notamment en raison de l'absence de fonctionnalités de mise à jour en temps réel et de collaboration simultanée.
+Conception et développement d'une application web de gestion des personnels, offrant des fonctionnalités avancées telles que la gestion des prises de service, des absences, des congés, des ordres de mission et des attestations de travail.
 
 <!-- new slide -->
