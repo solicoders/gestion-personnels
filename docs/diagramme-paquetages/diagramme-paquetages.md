@@ -1,6 +1,6 @@
 ---
 layout: default
-chapitre: cas-utilisation
+chapitre: diagramme-paquetages
 order: 8
 ---
 
