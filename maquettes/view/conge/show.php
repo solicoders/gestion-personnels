@@ -13,194 +13,229 @@
         <?php include_once "../layouts/aside.php" ?>
 
 
+        <div class="content-wrapper" style="min-height: 1604.44px;">
 
-        <div class="content-wrapper" style="min-height: 1302.4px;">
-            <div class="content-header">
+            <section class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Détails du Congé</h1>
+                            <h1>Historique des congés</h1>
                         </div>
                         <div class="col-sm-6">
-                            <a href="./edit.php" class="btn btn-default float-right"><i class="far fa-edit"></i> Modifier</a>
+                            <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i
+                                    class="fas fa-arrow-left"></i> Retoure</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <div class="card-body d-flex justify-content-between">
-                                    <div class="">
-                                        <div class="col-sm-12">
-                                            <label for="nom">Matricuule:</label>
-                                            <p>2131234</p>
-                                        </div>
+                        <div class="col-md-3">
 
-                                        <div class="col-sm-12">
-                                            <label for="nom">Nom:</label>
-                                            <p>Alami</p>
-                                        </div>
-
-                                        <div class="col-sm-12">
-                                            <label for="nom">Prenom:</label>
-                                            <p>Mohamed</p>
-                                        </div>
+                            <div class="card card-purple card-outline">
+                                <div class="card-body box-profile">
+                                    <div class="text-center">
+                                        <img class="profile-user-img img-fluid img-circle"
+                                            src="../assets/images/user.png" alt="User profile picture">
                                     </div>
+                                    <h3 class="profile-username text-center">Mohamed Ali</h3>
+                                    <p class="text-muted text-center">Formateur</p>
+                                    <ul class="list-group list-group-unbordered mb-3">
+                                        <li class="list-group-item">
+                                            <b>Matricule</b> <a class="float-right text-purple">1243566</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <b>Etablissement</b> <a class="float-right text-purple">Solicode</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <b>Jours restant</b> <a class="float-right text-purple">6</a>
+                                        </li>
+                                    </ul>
+                                    <a href="/view/personnels/show.php" class="btn bg-purple btn-block"
+                                        style="margin-top: 2rem"><b>Plus
+                                            d'informations</b></a>
+                                </div>
 
-                                    <div class="w-100 d-flex justify-content-end">
-                                        <div class="col-12 col-sm-4 m-0">
-                                            <div class="info-box bg-danger col-md-10">
-                                                <span class="info-box-icon"><i class="far fa-calendar-alt"></i></span>
-                                                <div class="info-box-content">
-                                                    <span class="info-box-text">jours</span>
-                                                    <span class="info-box-number">-6</span>
-                                                    <div class="progress">
-                                                        <div class="progress-bar" style="width: 0%"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-9">
+                            <section class="content">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="card card-purple card-outline">
+                                                <div class="card-header col-md-12">
+                                                    <div class="row justify-content-between">
+                                                        <div class="col-4">
+                                                            <div class="input-group input-group-sm">
+                                                                <div class="input-group-append">
+                                                                    <button type="submit" class="btn btn-default">
+                                                                        <i class="fas fa-filter "></i>
+                                                                    </button>
+                                                                </div>
+                                                                <select class="form-select form-control"
+                                                                    id="filterSelectProjrctValue"
+                                                                    aria-label="Filter Select">
+                                                                    <option value="précédent">select anées</option>
+                                                                    <option value="précédent">2024</option>
+                                                                    <option value="précédent">2023</option>
+                                                                    <option value="précédent">2022</option>
+                                                                    <option value="précédent">2021</option>
+                                                                    <option value="précédent">2020</option>
+                                                                </select>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="d-flex justify-content-end">
+
+                                                                <div class=" p-0">
+                                                                    <div class="input-group input-group-sm">
+                                                                        <input type="text" name="table_search"
+                                                                            class="form-control"
+                                                                            placeholder="Recherche">
+                                                                        <div class="input-group-append">
+                                                                            <button type="submit"
+                                                                                class="btn btn-default">
+                                                                                <i class="fas fa-search"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-body table-responsive p-0">
+                                                    <table class="table table-striped text-nowrap">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Date debut</th>
+                                                                <th>Date fin</th>
+                                                                <th class="text-center">Durée accordé</th>
+                                                                <th class="text-center">Actions</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>2024-01-1</td>
+                                                                <td>2024-03-6</td>
+                                                                <td class="text-center">5</td>
+                                                                <td class="text-center">
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button"
+                                                                        class="btn btn-sm btn-danger"><i
+                                                                            class="fa-solid fa-trash"></i></button>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>2024-02-16</td>
+                                                                <td>2024-02-19</td>
+                                                                <td class="text-center">3</td>
+                                                                <td class="text-center">
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button"
+                                                                        class="btn btn-sm btn-danger"><i
+                                                                            class="fa-solid fa-trash"></i></button>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>2024-02-20</td>
+                                                                <td>2024-02-29</td>
+                                                                <td class="text-center">7</td>
+                                                                <td class="text-center">
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button"
+                                                                        class="btn btn-sm btn-danger"><i
+                                                                            class="fa-solid fa-trash"></i></button>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>2024-02-23</td>
+                                                                <td>2024-03-2</td>
+                                                                <td class="text-center">10</td>
+                                                                <td class="text-center">
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button" class="btn btn-sm btn-danger">
+                                                                        <i class="fa-solid fa-trash"></i></button>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2024-02-27</td>
+                                                                <td>2024-03-2</td>
+                                                                <td class="text-center">10</td>
+                                                                <td class="text-center">
+                                                                    <a href="./edit.php"
+                                                                        class="btn btn-sm btn-default"><i
+                                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                                    <button type="button" class="btn btn-sm btn-danger">
+                                                                        <i class="fa-solid fa-trash"></i></button>
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="row justify-content-between p-2">
+                                                    <div class="col-6 align-self-end">
+                                                        <button type="button" class="btn btn-default btn-sm">
+                                                            <i class="fa-solid fa-file-arrow-down"></i>
+                                                            IMPORTER</button>
+                                                        <button type="button" class="btn btn-default btn-sm ">
+                                                            <i class="fa-solid fa-file-export"></i>
+                                                            EXPORTER</button>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <ul class="pagination  m-0 float-right">
+                                                            <li class="page-item"><a class="page-link text-secondary"
+                                                                    href="#">«</a>
+                                                            </li>
+                                                            <li class="page-item"><a
+                                                                    class="page-link text-secondary active"
+                                                                    href="#">1</a></li>
+                                                            <li class="page-item"><a class="page-link text-secondary"
+                                                                    href="#">2</a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link text-secondary"
+                                                                    href="#">3</a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link text-secondary"
+                                                                    href="#">»</a>
+                                                            </li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
+
                         </div>
+
                     </div>
-                </div>
-            </section>
 
-            <section class="content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card">
-                                <div class="card-header col-md-12">
-                                    <div class="d-flex justify-content-between">
-                                        <div class="dropdown input-group">
-                                            <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                Année
-                                            </button>
-                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#">2020</a>
-                                                <a class="dropdown-item" href="#">2021</a>
-                                                <a class="dropdown-item" href="#">2022</a>
-                                                <a class="dropdown-item" href="#">2023</a>
-                                                <a class="dropdown-item" href="#">2024</a>
-                                            </div>
-                                        </div>
-
-                                        <div class=" p-0">
-                                            <div class="input-group input-group-sm">
-                                                <input type="text" name="table_search" class="form-control" placeholder="Recherche">
-                                                <div class="input-group-append">
-                                                    <button type="submit" class="btn btn-default">
-                                                        <i class="fas fa-search"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card-body table-responsive p-0">
-                                    <table class="table table-striped text-nowrap">
-                                        <thead>
-                                            <tr>
-                                                <th>Date départ</th>
-                                                <th>Date retour</th>
-                                                <th class="text-center">Nombre de jours</th>
-                                                <th class="text-center">Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>2024-01-1</td>
-                                                <td>2024-03-6</td>
-                                                <td class="text-center">5</td>
-                                                <td class="text-center">
-                                                    <a href="./show.php" class='btn btn-default btn-sm'>
-                                                        <i class="far fa-eye"></i>
-                                                    </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>2024-02-16</td>
-                                                <td>2024-02-19</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-center">
-                                                    <a href="./show.php" class='btn btn-default btn-sm'>
-                                                        <i class="far fa-eye"></i>
-                                                    </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>2024-02-20</td>
-                                                <td>2024-02-29</td>
-                                                <td class="text-center">7</td>
-                                                <td class="text-center">
-                                                    <a href="./show.php" class='btn btn-default btn-sm'>
-                                                        <i class="far fa-eye"></i>
-                                                    </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>2024-02-19</td>
-                                                <td>2024-03-2</td>
-                                                <td class="text-center">10</td>
-                                                <td class="text-center">
-                                                    <a href="./show.php" class='btn btn-default btn-sm'>
-                                                        <i class="far fa-eye"></i>
-                                                    </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                                <div class="d-flex justify-content-between align-items-center p-2">
-                                    <div class="d-flex align-items-center mb-2">
-                                        <button type="button" class="btn btn-default btn-sm">
-                                            <i class="fa-solid fa-file-arrow-down"></i>
-                                            IMPORTER</button>
-                                        <button type="button" class="btn btn-default btn-sm mt-0 mx-2">
-                                            <i class="fa-solid fa-file-export"></i>
-                                            EXPORTER</button>
-                                    </div>
-                                    <div class="mr-5">
-                                        <ul class="pagination  m-0 float-right">
-                                            <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
-                                            <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
-                                            <li class="page-item"><a class="page-link text-secondary" href="#">»</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
         </div>
-
-
-
 
         <!-- Inclure le pied de page -->
         <?php include_once "../layouts/footer.php" ?>

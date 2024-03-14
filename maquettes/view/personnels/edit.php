@@ -19,13 +19,13 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="card card-success">
+                            <div class="card card-teal">
                                 <div class="card-header">
-                                    <h3 class="card-title">Modifier une mission</h3>
+                                    <h3 class="card-title"> <i class="fa-solid fa-users mr-2"></i> Modifier collaborateur
+                                    </h3>
                                 </div>
-                                <div class="card-body">
-                                    <?php include_once "./form.php" ?>
-                                </div>
+                                    <!-- form -->
+                                    <?php include_once "./form.php"?>
                             </div>
                         </div>
                     </div>

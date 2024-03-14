@@ -12,8 +12,8 @@
                     <!-- Nom (Arabic) -->
                     <div class="form-group pt-3 col-lg-6">
                         <label for="nomArab" class="form-label d-flex flex-row-reverse"> :
-                             النسب<span class="text-danger">*</span> </label>
-                        <input type="text" class="form-control" id="nomArab" name="nomArab" placeholder="أدخل النسب هنا" value="العلمي" required>
+                            النسب<span class="text-danger">*</span> </label>
+                        <input type="text" class="form-control direction-rtl" id="nomArab" name="nomArab" placeholder="أدخل النسب هنا" value="العلمي" required>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex">
@@ -26,7 +26,7 @@
                     <div class="form-group pt-3 col-lg-6">
                         <label for="prenomArab" class="form-label text-start d-flex flex-row-reverse"> :
                             الاسم <span class="text-danger">*</span> </label>
-                        <input type="text" class="form-control text-end d-flex flex-row-reverse" id="prenomArab" name="prenomArab" placeholder="أدخل الاسم هنا" value="محمد" required>
+                        <input type="text" class="form-control text-end d-flex flex-row-reverse direction-rtl" id="prenomArab" name="prenomArab" placeholder="أدخل الاسم هنا" value="محمد" required>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex">
@@ -61,15 +61,39 @@
                     </div>
                     <!-- Ville -->
                     <div class="form-group pt-3 col-lg-6">
-                        <label for="inputVille">Ville : </label>
-                        <input name="NumeroDeVille" type="text" class="form-control" id="inputVille" placeholder="Entrez le Ville" value="Tanger">
+                        <label for="inputVille">Ville :</label>
+                        <select name="NumeroDeVille" class="form-control" id="inputVille">
+                            <option value="Sélectionner une ville" selected>Sélectionner une ville</option>
+                            <option value="Agadir">Agadir</option>
+                            <option value="Al Hoceima">Al Hoceima</option>
+                            <option value="Beni Mellal">Beni Mellal</option>
+                            <option value="Casablanca">Casablanca</option>
+                            <option value="El Jadida">El Jadida</option>
+                            <option value="Fès">Fès</option>
+                            <option value="Kénitra">Kénitra</option>
+                            <option value="Laâyoune">Laâyoune</option>
+                            <option value="Marrakech">Marrakech</option>
+                            <option value="Meknès">Meknès</option>
+                            <option value="Nador">Nador</option>
+                            <option value="Ouarzazate">Ouarzazate</option>
+                            <option value="Oujda">Oujda</option>
+                            <option value="Rabat">Rabat</option>
+                            <option value="Salé">Salé</option>
+                            <option value="Tangier">Tangier</option>
+                            <option value="Taroudant">Taroudant</option>
+                            <option value="Taza">Taza</option>
+                            <option value="Tétouan">Tétouan</option>
+                        </select>
                     </div>
                 </div>
 
                 <!-- Photo -->
-                <div class="form-group pt-3 col-lg-6">
-                    <label for="inputPhoto">Photo</label>
-                    <input name="NumeroDePhoto" class="form-control" id="inputPhoto" type="file">
+                <div class="form-group">
+
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label" for="customFile">Choose file</label>
+                    </div>
                 </div>
 
             </fieldset>
@@ -83,27 +107,36 @@
                     <!-- Affectation -->
                     <div class="form-group pt-3 col-lg-6 col-6">
                         <label for="inputAffectation">Affectation : <span class="text-danger">*</span></label>
-                        <input name="NumeroDeAffectation" type="text" class="form-control" id="inputAffectation" placeholder="Entrez le Affectation" value="Solicode">
+                        <select name="NumeroDeAffectation" class="form-control" id="inputAffectation">
+                            <option value="Solicode" selected>Solicode</option>
+                            <option value="ISTA NTIC" selected>ISTA NTIC</option>
+                            <option value="Ibn marhal" selected>Ibn marhal</option>
+                        </select>
                     </div>
+
                 </div>
                 <div class="col-lg-12 d-flex">
                     <!-- AFP de Travail -->
                     <div class="form-group pt-3 col-lg-6 col-6">
-                        <label for="inputAFP de Travail">AFP de Travail</label>
-                        <input name="NumeroDeAFP de Travail" type="text" class="form-control" id="inputAFP de Travail" placeholder="Entrez le AFP de Travail" value="Solicode">
+                        <label for="inputAFPdeTravail">AFP de Travail</label>
+                        <select name="NumeroDeAFPdeTravail" class="form-control" id="inputAFPdeTravail">
+                            <option value="Solicode" selected>Solicode</option>
+                            <option value="ISTA NTIC" selected>ISTA NTIC</option>
+                            <option value="Ibn marhal" selected>Ibn marhal</option>
+                        </select>
                     </div>
                     <!-- Fonction -->
                     <div class="form-group pt-3 col-lg-6 col-6">
-                        <label for="inputFonction">Fonction : <span class="text-danger">*</span></label>
-                        <select class="form-control select2 select2-hidden-accessible" style="width: 100%;" data-select2-id="1" tabindex="-1" aria-hidden="true">
-                            <option selected="selected" data-select2-id="3">Développer</option>
+                        <label for="inputFonction">Spécialité : <span class="text-danger">*</span></label>
+                        <select class="form-control select2 select2-hidden-accessible" style="width: 100%;" data-select2-id="1" tabindex="-1" aria-hidden="true">5-
+                            <option selected="selected" data-select2-id="3">Développeur</option>
                             <option data-select2-id="34">comptable</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex">
                     <div class="form-group pt-3 col-lg-6" data-select2-id="29">
-                        <label>Type</label>
+                        <label>Fonction</label>
                         <select class="form-control select2 select2-hidden-accessible" style="width: 100%;" data-select2-id="1" tabindex="-1" aria-hidden="true">
                             <option selected="selected" data-select2-id="3">Formateur</option>
                             <option data-select2-id="34">Administrateur</option>
@@ -112,6 +145,11 @@
                 </div>
 
             </fieldset>
+
+            <div class="card-footer w-100 d-flex justify-content-end mt-3">
+                <a href="./index.php" class="btn btn-default mr-2">Annuler</a>
+                <button type="submit" class="btn <?php echo (strpos($current_route, 'edit') !== false) ? 'bg-teal' : 'btn-info' ?>"><?php echo (strpos($current_route, 'edit') !== false) ? 'Modifier' : 'Ajouter'; ?></button>
+            </div>
 
         </div>
 

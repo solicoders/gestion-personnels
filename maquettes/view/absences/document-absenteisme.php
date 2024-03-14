@@ -24,7 +24,7 @@ include_once "../../view/layouts/heade.php"
                         </div>
                         <div class="col-sm-6">
                             <div class="float-sm-right">
-                                <a href="./imprimer.php" class="btn bg-purple"> <i class="fa-solid fa-print"></i> Imprimer</a>
+                                <a href="./imprimer.php" class="btn btn-default"> <i class="fa-solid fa-arrow-flesh"></i> retoure</a>
                             </div>
 
                         </div>
@@ -37,7 +37,7 @@ include_once "../../view/layouts/heade.php"
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <form action="">
+                                    <form action="./imprimer.php">
                                         <div class="form-group">
                                             <label for="exampleInputPassword1">Date de début</label>
                                             <input name="startDate" type="date" class="form-control" id="exampleInputPassword1" placeholder="Date de début" value="2024-02-01">
@@ -70,6 +70,11 @@ include_once "../../view/layouts/heade.php"
                                             </div>
                                         </div>
 
+
+                                        <div class="card-footer d-flex justify-content-end gap-2">
+                                            <a href="./index.php" class="btn btn-default mr-3">Annuler</a>
+                                            <button type="submit" class="btn bg-purple"><i class="fa-solid fa-print"></i> Imprimer</button>
+                                        </div>
                                     </form>
 
                                 </div>

@@ -14,3 +14,11 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+.direction-rtl {
+    direction: rtl !important;
+}
+
+.pink {
+    color: #ff7ea5;
+}

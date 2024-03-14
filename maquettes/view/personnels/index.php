@@ -41,7 +41,7 @@
                                         <div class="dropdown input-group">
                                             <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
-                                                établissement
+                                                Établissement
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                 <a class="dropdown-item" href="#">Solicode</a>
@@ -64,70 +64,8 @@
                                 </div>
 
                                 <div class="card-body table-responsive p-0">
-                                    <table class="table table-striped text-nowrap">
-                                        <thead>
-                                            <tr>
-                                                <th>Matricule</th>
-                                                <th>Nom</th>
-                                                <th>Prenom</th>
-                                                <th>téléphone</th>
-                                                <th>type</th>
-                                                <th>établissement</th>
-                                                <th class="text-center">Attestation</th>
-                                                <th class="text-center">Actions</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>123456</td>
-                                                <td>Madani</td>
-                                                <td>Mohamed</td>
-                                                <td>+2129034704</td>
-                                                <td>directeur</td>
-                                                <td>solicode</td>
-                                                <td class="text-center"><a href="./attestation.php" class='btn btn-default btn-sm'><i class="fa-regular fa-file"></i></a></td>
-                                                <td class="text-center">
-                                                    <a href="./show.php" class='btn btn-default btn-sm'>
-                                                        <i class="far fa-eye"></i>
-                                                    </a>
-                                                    <a href="./modifier.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>124356</td>
-                                                <td>Madani</td>
-                                                <td>Ali</td>
-                                                <td>+212645690304</td>
-                                                <td>directeur</td>
-                                                <td>ntic</td>
-                                                <td class="text-center"><a href="./attestation.php" class='btn btn-default btn-sm'><i class="fa-regular fa-file"></i></a></td>
-                                                <td class="text-center">
-                                                    <a href="./show.php" class='btn btn-default btn-sm'>
-                                                        <i class="far fa-eye"></i>
-                                                    </a>
-                                                    <a href="./modifier.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>1098456</td>
-                                                <td>Alami</td>
-                                                <td>Mohamed</td>
-                                                <td>+2129567704</td>
-                                                <td>directeur</td>
-                                                <td>ibn marhal</td>
-                                                <td class="text-center"><a href="./attestation.php" class='btn btn-default btn-sm'><i class="fa-regular fa-file"></i></a></td>
-                                                <td class="text-center">
-                                                    <a href="./show.php" class='btn btn-default btn-sm'>
-                                                        <i class="far fa-eye"></i>
-                                                    </a>
-                                                    <a href="./modifier.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <!-- get table -->
+                                    <?php include_once "./table-index.php" ?>
                                 </div>
 
                                 <div class="d-flex justify-content-between align-items-center p-2">
