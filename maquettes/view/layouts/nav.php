@@ -10,22 +10,22 @@
     <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
-                <i class="fa-solid fa-school"></i><span class="m-2">Solicoder <span class="ml-2"><i
-                            class="fa-solid fa-sort-down"></i></span></span>
+                <i class="fa-solid fa-school"></i><span class="m-2">Solicoder Tanger<span class="ml-2">
+                        <i class="fa-solid fa-sort-down"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px;">
-                <span class="dropdown-item dropdown-header">les établissement</span>
+                <span class="dropdown-item dropdown-header">Les établissement</span>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item"> <span>Solicoder</span>
+                <a href="#" class="dropdown-item"> <span>SOLICODE TANGER</span>
 
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                    <span>Ntic</span>
+                    <span>ISTA NTIC</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
-                    <span>Ibn marhal</span>
+                    <span>ISTA IBN MARHAL</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#" class="dropdown-item">
