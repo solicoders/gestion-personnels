@@ -12,7 +12,7 @@
         <!-- Barre latérale -->
         <?php include_once "../layouts/aside.php" ?>
 
-        <div class="content-wrapper" style="min-height: 1302.4px;">
+        <div class="content-wrapper pt-5" style="min-height: 1302.4px;">
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
