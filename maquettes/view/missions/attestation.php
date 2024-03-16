@@ -12,8 +12,6 @@
         <!-- Barre latérale -->
         <?php include_once "../layouts/aside.php" ?>
 
-
-
         <div class="content-wrapper" style="min-height: 1302.4px;">
             <div class="content-header">
                 <div class="container-fluid">
@@ -37,7 +35,7 @@
                             <div class="card">
                                 <div class="card-body row">
                                     <section class="col-12 headerLogo mb-5">
-                                        <img src="../assets/images/OFPPT.png" alt="ofppt">
+                                        <img src="../assets/images/logo-ofppt.png" class="logoOfppt" alt="ofppt">
                                         <div class="d-flex flex-row-reverse">
                                             <div class=" mt-auto">
                                                 <p>OFP/DRTTA/CFPT1/OM/N<sup>o</sup> 07/22</p>
@@ -207,8 +205,6 @@
                 </div>
             </section>
         </div>
-        <!-- Inclure le pied de page -->
-        <?php include_once "../layouts/footer.php" ?>
 
     </div>
 
