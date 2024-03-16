@@ -5,7 +5,7 @@
 
 include_once "../../view/layouts/heade.php"
 
-?>
+    ?>
 
 <body class="sidebar-mini layout-fixed">
     <div class="wrapper">
@@ -48,7 +48,8 @@ include_once "../../view/layouts/heade.php"
                                                         <i class="fas fa-filter "></i>
                                                     </button>
                                                 </div>
-                                                <select class="form-select form-control" id="filterSelectProjrctValue" aria-label="Filter Select">
+                                                <select class="form-select form-control" id="filterSelectProjrctValue"
+                                                    aria-label="Filter Select">
                                                     <option value="précédent">Motif</option>
                                                     <option value="précédent">Congés</option>
                                                     <option value="précédent">Vacances</option>
@@ -66,9 +67,11 @@ include_once "../../view/layouts/heade.php"
                                                         </button>
                                                     </div>
                                                     <label for="startDate" class="sr-only">Date debut</label>
-                                                    <input type="date" class="form-control" id="startDate" aria-label="Start Date">
+                                                    <input type="date" class="form-control" id="startDate"
+                                                        aria-label="Start Date">
                                                     <label for="endDate" class="sr-only">Date fin</label>
-                                                    <input type="date" class="form-control" id="endDate" aria-label="End Date">
+                                                    <input type="date" class="form-control" id="endDate"
+                                                        aria-label="End Date">
                                                 </div>
                                             </div>
 
@@ -78,7 +81,8 @@ include_once "../../view/layouts/heade.php"
 
                                                 <div class="p-0">
                                                     <div class="input-group-sm input-group">
-                                                        <input type="text" name="table_search" class="form-control" placeholder="Recherche">
+                                                        <input type="text" name="table_search" class="form-control"
+                                                            placeholder="Recherche">
                                                         <div class="input-group-append">
                                                             <button type="submit" class="btn btn-default">
                                                                 <i class="fas fa-search"></i>
@@ -94,28 +98,34 @@ include_once "../../view/layouts/heade.php"
                                     <!-- table -->
                                     <?php include_once "./table.php" ?>
                                 </div>
-                                <div class="card-footer">
-                                    <div class="d-flex justify-content-between align-items-center p-2">
-                                        <div class="d-flex align-items-center mb-2">
-                                            <button type="button" class="btn btn-default btn-sm">
-                                                <i class="fa-solid fa-file-arrow-down"></i>
-                                                IMPORTER</button>
-                                            <button type="button" class="btn btn-default btn-sm mt-0 mx-2">
-                                                <i class="fa-solid fa-file-export"></i>
-                                                EXPORTER</button>
-                                            <a href="./document-absenteisme.php" type="button" class="btn btn-default bg-purple btn-sm mt-0 mx-2">
-                                                <i class="fa-solid fa-print"></i>
-                                                IMPRIMER</a>
-                                        </div>
-                                        <div class="">
-                                            <ul class="pagination  m-0 float-right">
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">»</a></li>
-                                            </ul>
-                                        </div>
+
+                                <div class="row justify-content-between p-2">
+                                    <div class="col-6 align-self-end">
+                                        <button type="button" class="btn btn-default btn-sm">
+                                            <i class="fa-solid fa-file-arrow-down"></i>
+                                            IMPORTER</button>
+                                        <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
+                                            class="btn  btn-default btn-sm mt-0 mx-2">
+                                            <i class="fa-solid fa-file-export"></i>
+                                            EXPORTER</button>
+                                        <a href="./document-absenteisme.php" type="button"
+                                            class="btn btn-default bg-purple btn-sm mt-0">
+                                            <i class="fa-solid fa-print"></i>
+                                            IMPRIMER</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="pagination  m-0 float-right">
+                                            <li class="page-item"><a class="page-link text-secondary" href="#">«</a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link text-secondary active"
+                                                    href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link text-secondary" href="#">2</a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link text-secondary" href="#">3</a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link text-secondary" href="#">»</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -133,7 +143,7 @@ include_once "../../view/layouts/heade.php"
     </div>
 
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#select1').select2({
                 tags: true,
                 tokenSeparators: [',', ' '],

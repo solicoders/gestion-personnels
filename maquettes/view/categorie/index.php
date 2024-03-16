@@ -39,7 +39,9 @@
                                 <div class="card-header col-md-12">
                                     <div class="d-flex justify-content-between">
                                         <div class="dropdown input-group">
-                                            <button class="btn btn-default mr-3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <button class="btn btn-default mr-3 dropdown-toggle" type="button"
+                                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
                                                 <i class="fa-solid fa-filter text-dark pr-2 border-right"></i>
                                                 Echellen
                                             </button>
@@ -57,7 +59,8 @@
 
                                         <div class=" p-0">
                                             <div class="input-group input-group-sm">
-                                                <input type="text" name="table_search" class="form-control" placeholder="Recherche">
+                                                <input type="text" name="table_search" class="form-control"
+                                                    placeholder="Recherche">
                                                 <div class="input-group-append">
                                                     <button type="submit" class="btn btn-default">
                                                         <i class="fas fa-search"></i>
@@ -95,8 +98,10 @@
                                                     <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
+                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i
+                                                            class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -113,8 +118,10 @@
                                                     <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
+                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i
+                                                            class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -131,20 +138,32 @@
                                                     <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></button>
+                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
+                                                            class="fa-solid fa-pen-to-square"></i></a>
+                                                    <button type="button" class="btn btn-sm btn-danger"><i
+                                                            class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
 
-                                <div class="d-flex justify-content-end align-items-center p-2">
-                                    <div class="mr-5">
+                                <div class="row justify-content-between p-2">
+                                    <div class="col-6 align-self-end">
+                                        <button type="button" class="btn btn-default btn-sm">
+                                            <i class="fa-solid fa-file-arrow-down"></i>
+                                            IMPORTER</button>
+                                        <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
+                                            class="btn  btn-default btn-sm mt-0 mx-2">
+                                            <i class="fa-solid fa-file-export"></i>
+                                            EXPORTER</button>
+                                    </div>
+                                    <div class="col-6">
                                         <ul class="pagination  m-0 float-right">
                                             <li class="page-item"><a class="page-link text-secondary" href="#">«</a>
                                             </li>
-                                            <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link text-secondary active"
+                                                    href="#">1</a></li>
                                             <li class="page-item"><a class="page-link text-secondary" href="#">2</a>
                                             </li>
                                             <li class="page-item"><a class="page-link text-secondary" href="#">3</a>

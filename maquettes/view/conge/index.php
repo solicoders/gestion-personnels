@@ -46,7 +46,8 @@
 
                                             <div class=" p-0">
                                                 <div class="input-group input-group-sm">
-                                                    <input type="text" name="table_search" class="form-control" placeholder="Recherche">
+                                                    <input type="text" name="table_search" class="form-control"
+                                                        placeholder="Recherche">
                                                     <div class="input-group-append">
                                                         <button type="submit" class="btn btn-default">
                                                             <i class="fas fa-search"></i>
@@ -61,22 +62,28 @@
                                         <?php include_once "./table-index.php" ?>
                                     </div>
 
-                                    <div class="d-flex justify-content-between align-items-center p-2">
-                                        <div class="d-flex align-items-center mb-2">
+                                    <div class="row justify-content-between p-2">
+                                        <div class="col-6 align-self-end">
                                             <button type="button" class="btn btn-default btn-sm">
                                                 <i class="fa-solid fa-file-arrow-down"></i>
                                                 IMPORTER</button>
-                                            <button type="button" class="btn btn-default btn-sm mt-0 mx-2">
+                                            <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
+                                                class="btn  btn-default btn-sm mt-0 mx-2">
                                                 <i class="fa-solid fa-file-export"></i>
                                                 EXPORTER</button>
                                         </div>
-                                        <div class="mr-5">
+                                        <div class="col-6">
                                             <ul class="pagination  m-0 float-right">
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">»</a></li>
+                                                <li class="page-item"><a class="page-link text-secondary" href="#">«</a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link text-secondary active"
+                                                        href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link text-secondary" href="#">2</a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link text-secondary" href="#">3</a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link text-secondary" href="#">»</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
