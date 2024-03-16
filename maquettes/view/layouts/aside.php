@@ -52,8 +52,8 @@ $current_route = $_SERVER['REQUEST_URI'];
 
                 <!-- start package Congés -->
                 <li class="nav-item">
-                    <a href="/view/conge/index.php"
-                        class="nav-link <?php echo (strpos($current_route, 'conge') !== false) ? 'active' : ''; ?>">
+                    <a href="/view/conges/index.php"
+                        class="nav-link <?php echo (strpos($current_route, 'conges') !== false) ? 'active' : ''; ?>">
                         <i class="fa-solid fa-bars-staggered mr-2"></i>
                         <p class="">
                             Congés
