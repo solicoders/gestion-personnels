@@ -24,7 +24,7 @@ include_once "../../view/layouts/heade.php"
                         </div>
                         <div class="col-sm-6">
                             <div class="float-sm-right">
-                                <a href="./imprimer.php" class="btn btn-default"> <i class="fa-solid fa-arrow-flesh"></i> retoure</a>
+                                <a href="javascript:history.go(-1);" class="btn btn-default float-right"><i class="fas fa-arrow-left"></i> Retoure</a>
                             </div>
 
                         </div>
