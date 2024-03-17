@@ -42,7 +42,21 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-header col-md-12">
-                                        <div class="d-flex justify-content-end">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="col-md-4 row">
+                                                <div class="input-group input-group-sm">
+                                                    <div class="input-group-prepend">
+                                                        <button type="submit" class="btn btn-default">
+                                                            <i class="fas fa-filter"></i>
+                                                        </button>
+                                                    </div>
+                                                    <label for="startDate" class="sr-only">Date debut</label>
+                                                    <input type="date" class="form-control" id="startDate" aria-label="Start Date">
+                                                    <label for="endDate" class="sr-only">Date fin</label>
+                                                    <input type="date" class="form-control" id="endDate" aria-label="End Date">
+                                                </div>
+                                            </div>
+
 
                                             <div class=" p-0">
                                                 <div class="input-group input-group-sm">
