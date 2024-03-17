@@ -22,3 +22,10 @@ $(document).ready(function () {
         }
     });
 });
+
+
+// Imprimer
+
+document.getElementById("printButton").addEventListener("click", function () {
+    window.print();
+});
