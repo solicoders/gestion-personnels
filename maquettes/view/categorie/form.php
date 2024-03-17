@@ -1,12 +1,12 @@
 <form action="process_form.php" method="POST">
     <div class="card-body">
         <div class="form-group">
-            <label for="inputNom">personnels : <span class="text-danger">*</span></label>
-            <select name="project" class="form-control" id="exampleInputProject" required>
-                <option value="projet1">Choisir un personnels</option>
-                <option value="Hamouda">Hamouda</option>
-                <option value="Saad">Saad</option>
-                <option value="Niema">Niema</option>
+            <label for="exampleInputProject">personnel : <span class="text-danger">*</span></label>
+            <select name="project" class="form-control js-example-basic-single" id="exampleInputProject">
+                <option value="projet1">Mohamed alami</option>
+                <option value="projet2">ahmed Alami</option>
+                <option value="projet3">jalil alami</option>
+                <option value="projet4">imran lmadani</option>
             </select>
         </div>
         <div class="form-group">
@@ -46,6 +46,11 @@
             </select>
         </div>
         <div class="form-group">
+            <label for="inputStartDate">Date de début d'echell: <span class="text-danger">*</span></label>
+            <input name="startDate" type="date" class="form-control" id="inputStartDate"
+                placeholder="Sélectionnez la date de début" value="2023-01-01" required>
+        </div>
+        <div class="form-group">
             <label for="inputNom">Echellen : <span class="text-danger">*</span></label>
             <select name="project" class="form-control" id="exampleInputProject" required>
                 <option value="projet1">Selectioné l'echellen</option>
@@ -63,19 +68,29 @@
         </div>
 
         <div class="form-group">
-            <label for="inputStartDate">Date de début : <span class="text-danger">*</span></label>
-            <input name="startDate" type="date" class="form-control" id="inputStartDate" placeholder="Sélectionnez la date de début" value="2023-01-01" required>
+            <label for="inputStartDate">Date de début d'echellen: <span class="text-danger">*</span></label>
+            <input name="startDate" type="date" class="form-control" id="inputStartDate"
+                placeholder="Sélectionnez la date de début" value="2023-01-01" required>
+        </div>
+        <div class="form-group">
+            <label for="inputNom">Grad : <span class="text-danger">*</span></label>
+            <select name="project" class="form-control js-example-basic-single" id="grad" required>
+                <option value="projet1">Sélectionner une grad</option>
+                <option value="Exécution">Exécution</option>
+                <option value="Exécution excellente">Exécution excellente</option>
+                <option value="Maitrise">Maitrise</option>
+                <option value="Maitrise principale">Maitrise principale</option>
+                <option value="Cadre">Cadre</option>
+                <option value="Cadre principal">Cadre principal</option>
+                <option value="Cadre superieur">Cadre superieur</option>
+            </select>
         </div>
 
-        <div class="form-group">
-            <label for="inputEndDate">Date de fin : <span class="text-danger">*</span></label>
-            <input name="endDate" type="date" class="form-control" id="inputEndDate" placeholder="Sélectionnez la date de fin" value="2024-02-01" required>
-        </div>
 
     </div>
 
     <div class="card-footer">
         <a href="./index.php" class="btn btn-default">Annuler</a>
-        <button type="submit" class="btn btn-info">Ajouter</button>
+        <button type="submit" class="btn  <?php echo (strpos($current_route, 'edit') !== false) ? 'bg-teal' : 'btn-info' ?>">Ajouter</button>
     </div>
 </form>

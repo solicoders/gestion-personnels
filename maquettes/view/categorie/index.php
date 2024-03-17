@@ -18,12 +18,12 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Liste des categorie</h1>
+                            <h1>Liste des catégories</h1>
                         </div>
                         <div class="col-sm-6">
                             <div class="float-sm-right">
                                 <a href="./create.php" class="btn btn-info">
-                                    <i class="fas fa-plus"></i> Nouveau categorie
+                                    <i class="fas fa-plus"></i> Nouveau catégorie
                                 </a>
                             </div>
 
@@ -78,9 +78,8 @@
                                                 <th>personnels</th>
                                                 <th>Echell</th>
                                                 <th>Echellen</th>
-                                                <th>Date de Début</th>
-                                                <th>Date de Fin</th>
-                                                <th class="text-center">Actions</th>
+                                                <th>Grad</th>
+                                                <th class="text-center">État</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -92,16 +91,11 @@
                                                 <td>
                                                     6
                                                 </td>
-                                                <td>11-7-2014</td>
-                                                <td>11-7-2014</td>
-                                                <td class="text-center">
+                                                <td>Cadre superieur</td>
+                                                <td class="d-flex justify-content-center">
                                                     <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -112,36 +106,26 @@
                                                 <td>
                                                     5
                                                 </td>
-                                                <td>11-7-2014</td>
-                                                <td>11-7-2014</td>
-                                                <td class="text-center">
+                                                <td>Cadre superieur</td>
+                                                <td class="d-flex justify-content-center">
                                                     <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>oumaima lmadani</td>
                                                 <td>
-                                                    23
+                                                    19
                                                 </td>
                                                 <td>
                                                     4
                                                 </td>
-                                                <td>11-7-2014</td>
-                                                <td>11-7-2014</td>
-                                                <td class="text-center">
+                                                <td>Cadre principal</td>
+                                                <td class="d-flex justify-content-center">
                                                     <a href="./show.php" class='btn btn-default btn-sm'>
                                                         <i class="far fa-eye"></i>
                                                     </a>
-                                                    <a href="./edit.php" class="btn btn-sm btn-default"><i
-                                                            class="fa-solid fa-pen-to-square"></i></a>
-                                                    <button type="button" class="btn btn-sm btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
