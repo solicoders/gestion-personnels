@@ -16,8 +16,9 @@
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-12 pt-4">
-
+                        <div class="col-md-12">
+                            <div class="card-header">
+                            </div>
                             <div class="card card-teal">
                                 <div class="card-header">
                                     <h3 class="card-title"> <i class="fa-solid fa-bars-staggered mr-2"></i> Modifier un congé</h3>
