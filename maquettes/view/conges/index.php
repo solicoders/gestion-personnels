@@ -43,7 +43,7 @@
                                 <div class="card">
                                     <div class="card-header col-md-12">
                                         <div class="d-flex justify-content-between">
-                                            <div class="col-md-4 row">
+                                            <div class="col-md-5 row">
                                                 <div class="input-group input-group-sm">
                                                     <div class="input-group-prepend">
                                                         <button type="submit" class="btn btn-default">
@@ -52,6 +52,7 @@
                                                     </div>
                                                     <label for="startDate" class="sr-only">Date debut</label>
                                                     <input type="date" class="form-control" id="startDate" aria-label="Start Date">
+                                                    <label for="" class="px-2 d-flex align-items-center">au</label>
                                                     <label for="endDate" class="sr-only">Date fin</label>
                                                     <input type="date" class="form-control" id="endDate" aria-label="End Date">
                                                 </div>
