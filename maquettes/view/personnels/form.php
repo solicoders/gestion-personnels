@@ -42,7 +42,7 @@
                     <div class="form-group pt-3 col-lg-6">
                         <label for="inputDateDeNaiddance">Date de naissance : <span class="text-danger">*</span></label>
                         <input name="dateNaissance" type="date" class="form-control" id="inputDateDeNaiddance"
-                            placeholder="Entrez le Date de naissance" value="01/08/1980">
+                            placeholder="Entrez le Date de naissance" value="1980-03-12">
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex">
@@ -68,8 +68,8 @@
                     </div>
                     <!-- Ville -->
                     <div class="form-group pt-3 col-lg-6">
-                        <label for="inputVille">Ville :</label>
-                        <select name="NumeroDeVille" class="form-control" id="inputVille">
+                        <label for="inputVille">Ville : <span class="text-danger">*</span></label>
+                        <select name="NumeroDeVille" class="form-control js-example-basic-single" id="inputVille">
                             <option value="Sélectionner une ville" selected>Sélectionner une ville</option>
                             <option value="Agadir">Agadir</option>
                             <option value="Al Hoceima">Al Hoceima</option>
@@ -94,12 +94,13 @@
                     </div>
                 </div>
                 <!-- Photo -->
-                <div class="form-group pt-3 col-lg-6">
-
-                    <label for="photo">Photo :</label>
-                    <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="customFile">
-                        <label class="custom-file-label" for="customFile">Choose file</label>
+                <div class="col-lg-12 d-flex">
+                    <div class="form-group pt-3 col-lg-6">
+                        <label for="photo">Photo :</label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile">Choose file</label>
+                        </div>
                     </div>
                 </div>
 
@@ -126,14 +127,14 @@
                 <div class="col-lg-12 d-flex">
                     <!-- AFP de Travail -->
                     <div class="form-group pt-3 col-lg-6 col-6">
-                        <label for="inputAFPdeTravail">EFP de Travail</label>
+                        <label for="inputAFPdeTravail">EFP de Travail : <span class="text-danger">*</span></label>
                         <select name="NumeroDeAFPdeTravail" class="form-control" id="inputAFPdeTravail">
                             <option value="Solicode" selected>Solicode</option>
                             <option value="ISTA NTIC" selected>ISTA NTIC</option>
                             <option value="Ibn marhal" selected>Ibn marhal</option>
                         </select>
                     </div>
-                    <!-- Fonction -->
+                    <!-- Spécialité -->
                     <div class="form-group pt-3 col-lg-6 col-6">
                         <label for="inputFonction">Spécialité : <span class="text-danger">*</span></label>
                         <select class="form-control select2" style="width: 100%;" data-select2-id="1" tabindex="-1"
@@ -145,7 +146,7 @@
                 </div>
                 <div class="col-lg-12 d-flex">
                     <div class="form-group pt-3 col-lg-6" data-select2-id="29">
-                        <label>Fonction</label>
+                        <label>Fonction : <span class="text-danger">*</span></label>
                         <select class="form-control select2" style="width: 100%;" data-select2-id="1" tabindex="-1"
                             aria-hidden="true">
                             <option selected="selected" data-select2-id="3">Formateur</option>
