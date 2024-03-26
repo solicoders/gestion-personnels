@@ -6,7 +6,7 @@
 
 <style>
     .info-personnel .active {
-        background-color: #17a2b8 !important;
+        background-color: #6f42c1 !important;
         border-color: #17a2b8 !important;
     }
 </style>
@@ -47,12 +47,12 @@
                                     <p class="text-muted text-center">Formateur</p>
                                     <ul class="list-group list-group-unbordered ">
                                         <li class="list-group-item">
-                                            <b>Établissement</b>
+                                            <b>Établissement :</b>
                                             <h6 class="float-right text-purple">Solicode</h6>
                                         </li>
                                         <li class="list-group-item">
-                                            <b>Fonction</b>
-                                            <h6 class="float-right text-purple">développement</h6>
+                                            <b>CIN :</b>
+                                            <h6 class="float-right text-purple">KB646776</h6>
                                         </li>
                                         <li class="list-group-item">
                                             <b>Type :</b>
