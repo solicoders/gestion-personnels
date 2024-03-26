@@ -48,18 +48,15 @@
                                                         <div class="input-group input-group-sm">
                                                             <div class="input-group-append">
                                                                 <button type="submit" class="btn btn-default">
-                                                                    <i class="fa-solid fa-calendar-week"></i>
+                                                                    <i class="fas fa-filter "></i>
                                                                 </button>
                                                             </div>
                                                             <select class="form-control select-moyens-de-transport">
-                                                                <option value="missions-actuelles"
-                                                                    class="missions-actuelles">Missions actuelles
+                                                                <option value="missions-actuelles" class="missions-actuelles">Missions actuelles
                                                                 </option>
-                                                                <option value="missions-precedentes"
-                                                                    class="missions-precedentes">Missions précédentes
+                                                                <option value="missions-precedentes" class="missions-precedentes">Missions précédentes
                                                                 </option>
-                                                                <option value="prochaines-missions"
-                                                                    class="prochaines-missions">Prochaines missions
+                                                                <option value="prochaines-missions" class="prochaines-missions">Prochaines missions
                                                                 </option>
                                                             </select>
                                                         </div>
@@ -71,8 +68,7 @@
 
                                                     <div class=" p-0">
                                                         <div class="input-group input-group-sm">
-                                                            <input type="text" name="table_search" class="form-control"
-                                                                placeholder="Recherche">
+                                                            <input type="text" name="table_search" class="form-control" placeholder="Recherche">
                                                             <div class="input-group-append">
                                                                 <button type="submit" class="btn btn-default">
                                                                     <i class="fas fa-search"></i>
@@ -109,9 +105,7 @@
                                                     <td>Rabat</td>
                                                     <td>2</td>
                                                     <td>2024-03-01</td>
-                                                    <td class="text-center"><a href="./attestation.php"
-                                                            class="btn btn-default btn-sm"><i
-                                                                class="fa-regular fa-file"></i></a></td>
+                                                    <td class="text-center"><a href="./attestation.php" class="btn btn-default btn-sm"><i class="fa-regular fa-file"></i></a></td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -125,9 +119,7 @@
                                                     <td>casablanca</td>
                                                     <td>5</td>
                                                     <td>2024-02-05</td>
-                                                    <td class="text-center"><a href="./attestation.php"
-                                                            class="btn btn-default btn-sm"><i
-                                                                class="fa-regular fa-file"></i></a></td>
+                                                    <td class="text-center"><a href="./attestation.php" class="btn btn-default btn-sm"><i class="fa-regular fa-file"></i></a></td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -141,9 +133,7 @@
                                                     <td>Casablanca</td>
                                                     <td>5</td>
                                                     <td>2024-01-17</td>
-                                                    <td class="text-center"><a href="./attestation.php"
-                                                            class="btn btn-default btn-sm"><i
-                                                                class="fa-regular fa-file"></i></a></td>
+                                                    <td class="text-center"><a href="./attestation.php" class="btn btn-default btn-sm"><i class="fa-regular fa-file"></i></a></td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -157,9 +147,7 @@
                                                     <td>Tanger</td>
                                                     <td>3</td>
                                                     <td>2023-12-09</td>
-                                                    <td class="text-center"><a href="./attestation.php"
-                                                            class="btn btn-default btn-sm"><i
-                                                                class="fa-regular fa-file"></i></a></td>
+                                                    <td class="text-center"><a href="./attestation.php" class="btn btn-default btn-sm"><i class="fa-regular fa-file"></i></a></td>
                                                     <td class="text-center">
                                                         <a href="./show.php" class='btn btn-default btn-sm'>
                                                             <i class="far fa-eye"></i>
@@ -175,8 +163,7 @@
                                             <button type="button" class="btn btn-default btn-sm">
                                                 <i class="fa-solid fa-file-arrow-down"></i>
                                                 IMPORTER</button>
-                                            <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
-                                                class="btn  btn-default btn-sm mt-0 mx-2">
+                                            <button type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn  btn-default btn-sm mt-0 mx-2">
                                                 <i class="fa-solid fa-file-export"></i>
                                                 EXPORTER</button>
                                         </div>
@@ -184,8 +171,7 @@
                                             <ul class="pagination  m-0 float-right">
                                                 <li class="page-item"><a class="page-link text-secondary" href="#">«</a>
                                                 </li>
-                                                <li class="page-item"><a class="page-link text-secondary active"
-                                                        href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>
                                                 <li class="page-item"><a class="page-link text-secondary" href="#">2</a>
                                                 </li>
                                                 <li class="page-item"><a class="page-link text-secondary" href="#">3</a>
@@ -202,8 +188,7 @@
                 </section>
             </div>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -228,8 +213,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Fermer</button>
-                            <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
-                                class="btn  btn-default btn-sm mt-0 mx-2">
+                            <button type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btn  btn-default btn-sm mt-0 mx-2">
                                 <i class="fa-solid fa-file-export"></i>
                                 EXPORTER</button>
                         </div>
