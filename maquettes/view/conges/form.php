@@ -86,15 +86,6 @@
                 <input name="endDate" type="date" class="form-control" id="inputEndDate"
                     placeholder="Sélectionnez la date de fin" value="2024-02-01">
             </div>
-            <div class="form-group">
-                <label>Date and time range:</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="far fa-clock"></i></span>
-                    </div>
-                    <input type="text" class="form-control float-right" id="reservationtime">
-                </div>
-            </div>
         </div>
 
         <div class="card-footer w-100 d-flex justify-content-end">
