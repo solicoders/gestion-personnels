@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<?php include_once "../layouts/heade.php" ?>
+<?php include_once '../layouts/heade.php'; ?>
 
 <body class="sidebar-mini" style="height: auto;">
 
     <div class="wrapper">
         <!-- Navigation -->
-        <?php include_once "../layouts/nav.php" ?>
+        <?php include_once '../layouts/nav.php'; ?>
         <!-- Barre latérale -->
-        <?php include_once "../layouts/aside.php" ?>
+        <?php include_once '../layouts/aside.php'; ?>
 
         <div class="wrapper">
             <!-- Navigation -->
-            <?php include_once "../layouts/nav.php" ?>
+            <?php include_once '../layouts/nav.php'; ?>
             <!-- Barre latérale -->
-            <?php include_once "../layouts/aside.php" ?>
+            <?php include_once '../layouts/aside.php'; ?>
 
 
             <div class="content-wrapper" style="min-height: 1302.4px;">
@@ -59,7 +59,7 @@
                                     </div>
 
                                     <div class="card-body table-responsive p-0">
-                                        <?php include_once "./table-index.php" ?>
+                                        <?php include_once './table-index.php'; ?>
                                     </div>
 
                                     <div class="row justify-content-between p-2">
@@ -74,15 +74,19 @@
                                         </div>
                                         <div class="col-6">
                                             <ul class="pagination  m-0 float-right">
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">«</a>
+                                                <li class="page-item"><a class="page-link text-secondary"
+                                                        href="#">«</a>
                                                 </li>
                                                 <li class="page-item"><a class="page-link text-secondary active"
                                                         href="#">1</a></li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">2</a>
+                                                <li class="page-item"><a class="page-link text-secondary"
+                                                        href="#">2</a>
                                                 </li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">3</a>
+                                                <li class="page-item"><a class="page-link text-secondary"
+                                                        href="#">3</a>
                                                 </li>
-                                                <li class="page-item"><a class="page-link text-secondary" href="#">»</a>
+                                                <li class="page-item"><a class="page-link text-secondary"
+                                                        href="#">»</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -94,8 +98,9 @@
                 </section>
             </div>
 
+            
             <!-- Inclure le pied de page -->
-            <?php include_once "../layouts/footer.php" ?>
+            <?php include_once '../layouts/footer.php'; ?>
 
         </div>
 
@@ -103,6 +108,6 @@
 </body>
 
 <!-- get script -->
-<?php include_once "../layouts/script-link.php"; ?>
+<?php include_once '../layouts/script-link.php'; ?>
 
 </html>
