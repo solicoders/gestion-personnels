@@ -33,6 +33,18 @@
                 </div>
             </div>
 
+            <!-- Motif -->
+            <div class="form-group">
+                <label for="inputAffectation">Motif : <span class="text-danger">*</span></label>
+                <select name="NumeroDeAffectation" class="form-control" id="inputAffectation">
+                    <option value="Solicode" selected>Mariage</option>
+                    <option value="ISTA NTIC" selected>Vacances</option>
+                    <option value="Ibn marhal" selected>Maternité</option>
+                    <option value="Ibn marhal" selected>Personnel</option>
+                </select>
+            </div>
+
+
             <div class="form-group">
                 <label for="inputStartDate">Date de début : <span class="text-danger">*</span></label>
                 <input name="startDate" type="date" class="form-control" id="inputStartDate" placeholder="Sélectionnez la date de début" value="2023-01-01">
