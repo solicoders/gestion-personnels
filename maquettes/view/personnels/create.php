@@ -12,12 +12,13 @@
         <!-- Barre latérale -->
         <?php include_once "../layouts/aside.php" ?>
 
-        <div class="content-wrapper pt-5" style="min-height: 1302.4px;">
+        <div class="content-wrapper" style="min-height: 1302.4px;">
+            <div class="content-header">
+            </div>
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-12 pt-4">
-
+                        <div class="col-md-12">
                             <div class="card card-info">
                                 <div class="card-header">
                                     <h3 class="card-title"> <i class="fa-solid fa-users mr-2"></i> Ajouter un collaborateur</h3>
