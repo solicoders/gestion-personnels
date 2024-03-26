@@ -17,8 +17,8 @@
                     <div class="callout callout-success bg-light">
                         <div class="d-flex">
                             <label for="Jours-restants">Nombre du Jours restants :</label>
-                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 18</h5>
-                            <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="22 - Nombre de jours = 23 & cliquez pour plus de détails"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
+                            <h5 name="Jours-restants" class="pl-3" id="Jours-restants"> 9</h5>
+                            <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="jours restants dernières années + 22 - Nombre de jours"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                     <div class="callout callout-warning bg-light">
                         <div class="d-flex">
                             <label for="Jours-possibles">Nombre du Jours possible :</label>
-                            <h5 name="Jours-possibles" class="pl-3" id="Jours-possibles"> 24</h5>
+                            <h5 name="Jours-possibles" class="pl-3" id="Jours-possibles"> 15</h5>
                             <label><a href="#calcjourRestants" data-toggle="tooltip" data-placement="top" title="Nombre du Jours possible = 6 + Nombre du Jours restants"><i class="fa-solid fa-circle-exclamation pl-3"></i></a></label>
                         </div>
                     </div>

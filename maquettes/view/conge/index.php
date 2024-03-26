@@ -84,7 +84,7 @@
                                                 <i class="fa-solid fa-file-export"></i>
                                                 EXPORTER</button>
                                         </div>
-                                        <div class="mr-5">
+                                        <div class="">
                                             <ul class="pagination  m-0 float-right">
                                                 <li class="page-item"><a class="page-link text-secondary" href="#">«</a></li>
                                                 <li class="page-item"><a class="page-link text-secondary active" href="#">1</a></li>

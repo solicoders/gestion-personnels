@@ -17,7 +17,8 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-
+                            <div class="card-header">
+                            </div>
                             <div class="card card-info">
                                 <div class="card-header">
                                     <h3 class="card-title"> <i class="fa-solid fa-bars-staggered mr-2"></i> Ajouter un congé</h3>
@@ -33,9 +34,9 @@
             <!-- get info calc jour restants -->
             <?php include_once "./info-calc.php" ?>
         </div>
-        
-                    <!-- Inclure le pied de page -->
-                    <?php include_once "../layouts/footer.php" ?>
+
+        <!-- Inclure le pied de page -->
+        <?php include_once "../layouts/footer.php" ?>
 
         <!-- Inclure le script -->
         <?php include_once "../layouts/script-link.php" ?>
