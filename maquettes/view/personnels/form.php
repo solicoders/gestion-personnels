@@ -69,7 +69,7 @@
                     <!-- Ville -->
                     <div class="form-group pt-3 col-lg-6">
                         <label for="inputVille">Ville : <span class="text-danger">*</span></label>
-                        <select name="NumeroDeVille" class="form-control select2" id="inputVille">
+                        <select name="NumeroDeVille" class="form-control js-example-basic-single" id="inputVille">
                             <option value="Sélectionner une ville" selected>Sélectionner une ville</option>
                             <option value="Agadir">Agadir</option>
                             <option value="Al Hoceima">Al Hoceima</option>
@@ -169,12 +169,3 @@
 
     </div>
 </form>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-beta.1/js/select2.min.js"></script>
-
-<script>
-    // Initialize Select2
-    $(document).ready(function () {
-        $('.select2').select2();
-    });
-</script>
